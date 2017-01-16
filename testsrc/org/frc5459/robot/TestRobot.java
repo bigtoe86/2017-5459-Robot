@@ -40,18 +40,17 @@ public class TestRobot {
         assertThat(solenoid.isStopped()).isTrue();   
         System.out.println("shouldExtendWhenRetracted passed");
 	}
-	@Ignore
+	
 	@Test
 	public void shouldRetractWhenAlreadyExtended(){
 	    MockSolenoid solenoid = Mock.manualSolenoid().extend();
 	    System.out.println("Solenoid created");
 	    BucketRetractCommand command = new BucketRetractCommand(solenoid);
 	    System.out.println("Command created");
-	    solenoid.retract();
 	    assertThat(command.execute()).isTrue();
-	    System.out.println(solenoid.isExtending());
-	    assertThat(solenoid.isExtending()).isFalse();
+	    System.out.println(solenoid.isRetracting());
 	    assertThat(solenoid.isRetracting()).isTrue();
+	    assertThat(solenoid.isExtending()).isFalse();
 	    
 	    
 	    solenoid.stop();
@@ -65,10 +64,12 @@ public class TestRobot {
         System.out.println("Solenoid created");
         BucketRetractCommand command = new BucketRetractCommand(solenoid);
         System.out.println("Command created");
+        solenoid.retract();
+        assertThat(command.execute()).isTrue();
+        System.out.println(solenoid.isRetracting());
         assertThat(solenoid.isExtending()).isFalse();
         assertThat(solenoid.isRetracting()).isTrue();
-        System.out.println("hey");
-        assertThat(command.execute()).isTrue();
+        
         solenoid.stop();
         assertThat(solenoid.isStopped()).isTrue();   
         System.out.println("shouldRetractWhenRetracted passed");
