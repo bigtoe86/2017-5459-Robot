@@ -1,19 +1,23 @@
 package org.frc5459.robot;
 
 import org.strongback.components.Gyroscope;
-import org.strongback.components.Motor;
+import org.strongback.components.Solenoid;
+import org.strongback.components.TalonSRX.FeedbackDevice;
+import org.strongback.control.TalonController;
+import org.strongback.control.TalonController.ControlMode;
 
 import edu.wpi.first.wpilibj.Encoder;
 import edu.wpi.first.wpilibj.Ultrasonic;
 
 public class Drive5459 {
-	private Motor Right;
-	private Motor Left;
+	private TalonController right;
+	private TalonController left;
 	private Ultrasonic ultraX;
 	private Ultrasonic ultraY;
 	private Encoder leftEncoder;
 	private Encoder rightEncoder;
 	private Gyroscope gyro;
+	private Solenoid gearShift;
 	
 	
 	static enum currentGear{
@@ -21,23 +25,38 @@ public class Drive5459 {
 		LOWGEAR,
 	}
 	
-	public Drive5459(Motor Right, Motor Left, Ultrasonic ultraX, Ultrasonic ultraY, Encoder leftEncoder, Encoder rightEncoder, Gyroscope gyro){
-		this.Left = Left;
-		this.Right = Right;
+	public Drive5459(TalonController right, TalonController left, Ultrasonic ultraX, Ultrasonic ultraY, Encoder leftEncoder, Encoder rightEncoder,
+			Gyroscope gyro, Solenoid gearShift){
+		this.left = left;
+		this.right = right;
 		this.ultraX = ultraX;
 		this.ultraY = ultraY;
 		this.leftEncoder = leftEncoder;
 		this.rightEncoder = rightEncoder;
 		this.gyro = gyro;
+		this.gearShift = gearShift;
 	}
 	
 	public void setPowerRight(double power){
-		//Right.setSpeed(power);
+		right.setControlMode(ControlMode.SPEED);
+		right.setSpeed(power);
 	}
 	
 	public void setPowerLeft(double power){
-		//Left.setSpeed(power);
+		left.setControlMode(ControlMode.SPEED);
+		left.setSpeed(power);
 	}
+	
+//	public void setSpeedFromEncoderR(){
+//		right.setFeedbackDevice(FeedbackDevice.MAGNETIC_ENCODER_RELATIVE);
+//		right.setControlMode(ControlMode.POSITION);
+//	}
+//	
+//	public void setSpeedFromEncoderL(){
+//		left.setFeedbackDevice(FeedbackDevice.MAGNETIC_ENCODER_RELATIVE);
+//		left.setControlMode(ControlMode.POSITION);
+//		left.withTarget(leftEncoder.get);
+//	}
 	
 	public double getUltrasonicX(){
 		return ultraX.getRangeInches();
@@ -58,6 +77,16 @@ public class Drive5459 {
 	public int leftEncoderCount(){
 		return leftEncoder.get();
 	}
+	
+	public void extend(){
+		gearShift.extend();
+	}
+	
+	public void retract(){
+		gearShift.retract();
+	}
+	
+	
 	
 	
 	
