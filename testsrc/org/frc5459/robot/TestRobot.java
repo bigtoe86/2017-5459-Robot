@@ -8,9 +8,11 @@ import org.fest.assertions.Assertions;
 
 import static org.fest.assertions.Assertions.assertThat;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.strongback.mock.Mock;
 import org.strongback.mock.MockMotor;
+import org.strongback.mock.MockSolenoid;
 
 public class TestRobot {
 	private MockMotor motor;
