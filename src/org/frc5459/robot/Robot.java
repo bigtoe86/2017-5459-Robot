@@ -14,6 +14,7 @@ import org.strongback.hardware.Hardware;
 import edu.wpi.first.wpilibj.Encoder;
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.SPI;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 public class Robot extends IterativeRobot {
 	private FlightStick operator;
@@ -28,7 +29,7 @@ public class Robot extends IterativeRobot {
 	private TalonController gammaMC;
 	private Gyroscope gyro;
 	private Encoder encoderRight;
-	private Encoder encoderLeft;
+	private Encoder encoderLeft
 	
 
 
@@ -83,6 +84,7 @@ public class Robot extends IterativeRobot {
     public void teleopPeriodic() {
     	reactor.onTriggered(operator.getButton(5), () -> Strongback.submit(new BucketExtendCommand(bucket)));
     	reactor.onTriggered(operator.getButton(3), () -> Strongback.submit(new BucketRetractCommand(bucket)));
+    	
     	
     	
     }

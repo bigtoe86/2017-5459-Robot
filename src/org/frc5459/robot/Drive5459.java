@@ -8,6 +8,7 @@ import org.strongback.control.TalonController.ControlMode;
 
 import edu.wpi.first.wpilibj.Encoder;
 import edu.wpi.first.wpilibj.Ultrasonic;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 public class Drive5459 {
 	private TalonController right;
@@ -37,26 +38,25 @@ public class Drive5459 {
 		this.gearShift = gearShift;
 	}
 	
-	public void setPowerRight(double power){
+	public void setSpeedRight(double power){
 		right.setControlMode(ControlMode.SPEED);
 		right.setSpeed(power);
 	}
 	
-	public void setPowerLeft(double power){
+	public void setSpeedLeft(double power){
 		left.setControlMode(ControlMode.SPEED);
 		left.setSpeed(power);
 	}
 	
-//	public void setSpeedFromEncoderR(){
-//		right.setFeedbackDevice(FeedbackDevice.MAGNETIC_ENCODER_RELATIVE);
-//		right.setControlMode(ControlMode.POSITION);
-//	}
-//	
-//	public void setSpeedFromEncoderL(){
-//		left.setFeedbackDevice(FeedbackDevice.MAGNETIC_ENCODER_RELATIVE);
-//		left.setControlMode(ControlMode.POSITION);
-//		left.withTarget(leftEncoder.get);
-//	}
+	public void setEncoderRight(){
+		right.setFeedbackDevice(FeedbackDevice.MAGNETIC_ENCODER_RELATIVE);
+		right.setControlMode(ControlMode.POSITION);
+	}
+	
+	public void setEncoderLeft(){
+		left.setFeedbackDevice(FeedbackDevice.MAGNETIC_ENCODER_RELATIVE);
+		left.setControlMode(ControlMode.POSITION);
+	}
 	
 	public double getUltrasonicX(){
 		return ultraX.getRangeInches();
@@ -85,7 +85,6 @@ public class Drive5459 {
 	public void retract(){
 		gearShift.retract();
 	}
-	
 	
 	
 	
