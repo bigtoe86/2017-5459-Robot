@@ -1,3 +1,4 @@
+
 /* Created Sat Jan 14 09:56:00 EST 2017 */
 package org.frc5459.robot;
 
@@ -8,12 +9,11 @@ import org.fest.assertions.Assertions;
 
 import static org.fest.assertions.Assertions.assertThat;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.strongback.mock.Mock;
 import org.strongback.mock.MockMotor;
 import org.strongback.mock.MockSolenoid;
-import org.junit.Ignore;
-
 
 public class TestRobot {
 	private MockMotor motor;
@@ -51,13 +51,6 @@ public class TestRobot {
         assertThat(speed == 0.0).isTrue();
         System.out.println("shouldStopWhenStopped passed");
     }
-
-
-
-
-
-
-	private MockSolenoid MockBucket;
 
 	@Ignore
 	@Test
@@ -123,5 +116,5 @@ public class TestRobot {
 	}
     	
 	
-
 }
+
