@@ -3,20 +3,24 @@ package org.frc5459.robot;
 import org.strongback.components.Gyroscope;
 import org.strongback.components.Solenoid;
 import org.strongback.components.TalonSRX.FeedbackDevice;
+import org.strongback.components.TalonSRX.StatusFrameRate;
 import org.strongback.control.TalonController;
 import org.strongback.control.TalonController.ControlMode;
+import org.strongback.hardware.Hardware;
+
+import com.ctre.CANTalon;
 
 import edu.wpi.first.wpilibj.Encoder;
 import edu.wpi.first.wpilibj.Ultrasonic;
 
 public class Drive5459 {
-	private TalonController right;
-	private TalonController left;
+	private TalonController rightController;
+	private TalonController leftController;
 	private Ultrasonic ultraX;
 	private Ultrasonic ultraY;
 	private Encoder leftEncoder;
 	private Encoder rightEncoder;
-	private Gyroscope gyro;
+	private ADIS16448_IMU imu;
 	private Solenoid gearShift;
 	
 	
@@ -26,37 +30,38 @@ public class Drive5459 {
 	}
 	
 	public Drive5459(TalonController right, TalonController left, Ultrasonic ultraX, Ultrasonic ultraY, Encoder leftEncoder, Encoder rightEncoder,
-			Gyroscope gyro, Solenoid gearShift){
-		this.left = left;
-		this.right = right;
+			ADIS16448_IMU imu, Solenoid gearShift){
 		this.ultraX = ultraX;
 		this.ultraY = ultraY;
 		this.leftEncoder = leftEncoder;
 		this.rightEncoder = rightEncoder;
-		this.gyro = gyro;
+		this.imu = imu;
 		this.gearShift = gearShift;
+		this.rightController = right;
+		this.leftController = left;
 	}
 	
 	public void setPowerRight(double power){
-		right.setControlMode(ControlMode.SPEED);
-		right.setSpeed(power);
+		rightController.setControlMode(ControlMode.SPEED);
+		rightController.setSpeed(power);
 	}
 	
 	public void setPowerLeft(double power){
-		left.setControlMode(ControlMode.SPEED);
-		left.setSpeed(power);
+		leftController.setControlMode(ControlMode.SPEED);
+		leftController.setSpeed(power);
 	}
 	
-//	public void setSpeedFromEncoderR(){
-//		right.setFeedbackDevice(FeedbackDevice.MAGNETIC_ENCODER_RELATIVE);
-//		right.setControlMode(ControlMode.POSITION);
-//	}
-//	
-//	public void setSpeedFromEncoderL(){
-//		left.setFeedbackDevice(FeedbackDevice.MAGNETIC_ENCODER_RELATIVE);
-//		left.setControlMode(ControlMode.POSITION);
-//		left.withTarget(leftEncoder.get);
-//	}
+	public void setEncoderTargetAngleRight(double targetAngle){
+		rightController.setStatusFrameRate(StatusFrameRate.FEEDBACK, 20);
+		rightController.setControlMode(ControlMode.POSITION);
+		rightController.withTarget(targetAngle);
+	}
+	
+	public void setEncoderTargetAngleLeft(double targetAngle){
+		leftController.setStatusFrameRate(StatusFrameRate.FEEDBACK, 20);
+		leftController.setControlMode(ControlMode.POSITION);
+		leftController.withTarget(targetAngle);
+	}
 	
 	public double getUltrasonicX(){
 		return ultraX.getRangeInches();
@@ -67,7 +72,8 @@ public class Drive5459 {
 	}
 	
 	public double gyroAngle(){
-		return gyro.getAngle() * 180/Math.PI;
+		return imu.getAngleZ() * 180/Math.PI;
+		//this will most likely need to be changed
 	}
 	
 	public int rightEncdoerCount(){
@@ -86,6 +92,7 @@ public class Drive5459 {
 		gearShift.retract();
 	}
 	
+	//TODO write get acceration methods
 	
 	
 	
