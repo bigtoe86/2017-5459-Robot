@@ -1,16 +1,14 @@
 package org.frc5459.robot;
 
-import org.strongback.components.Gyroscope;
+
+
+import java.util.Timer;
+
 import org.strongback.components.Solenoid;
-import org.strongback.components.TalonSRX.FeedbackDevice;
 import org.strongback.components.TalonSRX.StatusFrameRate;
 import org.strongback.control.TalonController;
 import org.strongback.control.TalonController.ControlMode;
-import org.strongback.hardware.Hardware;
 
-import com.ctre.CANTalon;
-
-import edu.wpi.first.wpilibj.Encoder;
 import edu.wpi.first.wpilibj.Ultrasonic;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
@@ -19,10 +17,11 @@ public class Drive5459 {
 	private TalonController leftController;
 	private Ultrasonic ultraX;
 	private Ultrasonic ultraY;
-	private Encoder leftEncoder;
-	private Encoder rightEncoder;
 	private ADIS16448_IMU imu;
 	private Solenoid gearShift;
+	private double targetAngle;
+	String[] rightControllerValues = new String[8];
+	String[] leftControllerValues = new String[8];
 	
 	
 	static enum currentGear{
@@ -30,17 +29,45 @@ public class Drive5459 {
 		LOWGEAR,
 	}
 	
-	public Drive5459(TalonController right, TalonController left, Ultrasonic ultraX, Ultrasonic ultraY, Encoder leftEncoder, Encoder rightEncoder,
-			ADIS16448_IMU imu, Solenoid gearShift){
+	public Drive5459(TalonController right, TalonController left, Ultrasonic ultraX, Ultrasonic ultraY, ADIS16448_IMU imu, Solenoid gearShift){
 		this.ultraX = ultraX;
 		this.ultraY = ultraY;
-		this.leftEncoder = leftEncoder;
-		this.rightEncoder = rightEncoder;
 		this.imu = imu;
 		this.gearShift = gearShift;
 		this.rightController = right;
 		this.leftController = left;
+		
 	}
+	
+	public void rightControllerReturn(){
+		//try to find velocity of wheel difference in encoder rotation * circumfrence of wheel / time passed 
+		int x = 0;	
+		rightControllerValues[x++] = "" + rightController.getSpeed();
+		rightControllerValues[x++] = "" + rightController.getValue();
+		rightControllerValues[x++] = "" + rightController.getEncoderInput().getAngle();
+		rightControllerValues[x++] = "" + rightController.getBusVoltageSensor().getVoltage();
+		rightControllerValues[x++] = "" + rightController.getTemperatureSensor().getTemperatureInFahrenheit();
+		rightControllerValues[x++] = "" + rightController.isWithinTolerance();
+		rightControllerValues[x++] = "" + rightController.getDirection();
+		rightControllerValues[x++] = "" + rightController.getEncoderInput().getHeading();
+	}
+	
+	public void leftControllerReturn(){
+		int x = 0;
+		leftControllerValues[x++] = "" + leftController.getSpeed();
+		leftControllerValues[x++] = "" + leftController.getValue();
+		leftControllerValues[x++] = "" + leftController.getEncoderInput().getAngle();
+		leftControllerValues[x++] = "" + leftController.getBusVoltageSensor().getVoltage();
+		leftControllerValues[x++] = "" + leftController.getTemperatureSensor().getTemperatureInFahrenheit();
+		leftControllerValues[x++] = "" + leftController.isWithinTolerance();
+		leftControllerValues[x++] = "" + leftController.getDirection();
+		leftControllerValues[x++] = "" + leftController.getEncoderInput().getHeading();
+	}
+	
+//	public void getVelocity(){
+//
+//		(12 * y) / timer.get
+//	}
 
 	public void setPowerRight(double power){
 		rightController.setControlMode(ControlMode.SPEED);
@@ -56,13 +83,22 @@ public class Drive5459 {
 		rightController.setStatusFrameRate(StatusFrameRate.FEEDBACK, 20);
 		rightController.setControlMode(ControlMode.POSITION);
 		rightController.withTarget(targetAngle);
+		this.targetAngle = targetAngle;
 	}
 	
 	public void setEncoderTargetAngleLeft(double targetAngle){
 		leftController.setStatusFrameRate(StatusFrameRate.FEEDBACK, 20);
 		leftController.setControlMode(ControlMode.POSITION);
 		leftController.withTarget(targetAngle);
-
+		this.targetAngle = targetAngle;
+	}
+	
+	public double rightEncoderValue(){
+		return rightController.getValue();
+	}
+	
+	public double leftEncoderValue(){
+		return leftController.getValue();
 	}
 	
 	public double getUltrasonicX(){
@@ -78,14 +114,6 @@ public class Drive5459 {
 		//this will most likely need to be changed
 	}
 	
-	public int rightEncdoerCount(){
-		return rightEncoder.get();
-	}
-	
-	public int leftEncoderCount(){
-		return leftEncoder.get();
-	}
-	
 	public void extend(){
 		gearShift.extend();
 	}
@@ -94,7 +122,17 @@ public class Drive5459 {
 		gearShift.retract();
 	}
 	
-	//TODO write get acceration methods
+	public double imuX(){
+		return imu.getAngleX();
+	}
+	public double imuY(){
+		return imu.getAngleY();
+	}
+	public double imuZ(){
+		return imu.getAngleZ();
+	}
+	
+	//TODO write get acceleration methods
 	
 	
 	

@@ -11,16 +11,15 @@ import static org.fest.assertions.Assertions.assertThat;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.strongback.mock.Mock;
-<<<<<<< HEAD
+
 import org.strongback.mock.MockGyroscope;
 import org.strongback.mock.MockSolenoid;
 
-@Ignore
-=======
+
 import org.strongback.mock.MockMotor;
 import org.strongback.mock.MockSolenoid;
 
->>>>>>> b2fe6f608c9cbf6e503e4c2a61c7624d8051f272
+
 public class TestRobot {
 	private MockMotor motor;
 	//for AscendClimbCommand
