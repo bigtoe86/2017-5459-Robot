@@ -26,11 +26,7 @@ public class TurnToCommand extends Command{
 		b = targetTurn;
 		a = drive.imuY; //needs current rotation
 		c = a - b; //above
-		if(a == b){
-		
-			
-		}
-		else{
+		if(a != b){
 			if (c >= 90){
 				//where left is put
 				drive.setPowerRight(1.0);
