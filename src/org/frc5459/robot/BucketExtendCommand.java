@@ -7,7 +7,6 @@ public class BucketExtendCommand extends Command {
 	private Solenoid Bucket;
 	
 	
-	
 	public BucketExtendCommand(Solenoid Bucket){
 		this.Bucket = Bucket;
 	}

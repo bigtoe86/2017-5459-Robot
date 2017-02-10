@@ -7,7 +7,6 @@ public class BucketRetractCommand extends Command {
 	private Solenoid Bucket;
 	
 	
-	
 	public BucketRetractCommand(Solenoid Bucket){
 		this.Bucket = Bucket;
 	}
