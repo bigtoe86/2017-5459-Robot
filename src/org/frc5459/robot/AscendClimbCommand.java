@@ -6,8 +6,8 @@ import org.strongback.components.Motor;
 public class AscendClimbCommand extends Command{
 	private Motor ClimberMotor;
 	
-	public AscendClimbCommand(Motor ClimberMotor){
-		this.ClimberMotor = ClimberMotor;
+	public AscendClimbCommand(Motor motor){
+		this.ClimberMotor = motor;
 	}
 
 	@Override
