@@ -32,6 +32,6 @@ public class GoToEncoderValueCommand extends Command {
 		}else{
 			return false;
 		}
-		//needs if else
+		
 	}
 }
