@@ -3,35 +3,30 @@ package org.frc5459.robot;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import org.strongback.command.Command;
 
 
-public class AutoShiftingCommand {
+
+public class AutoShiftingCommand extends Command{
 
 	int t = 0;
 	double a = 0;
 	double c = 432.809;
 	double b = 0;
 	double x = 0;
+	Drive5459 drive;
+	Timer timer;
 	
-	Timer timer = new Timer();
-	TimerTask task = new TimerTask(){
-		public void run(){
-			t++;
-			System.out.println(t);
-			
-		}
-	};
-		
+	public AutoShiftingCommand(Drive5459 drive) {
+		this.drive = drive;
+		this.timer = new Timer();
+	}
 	
 	
-	public void Start(){
-		timer.scheduleAtFixedRate(task, 100, 100);
-		t=t * -1;
-		a=t/c;
-		b=Math.pow(Math.E, a);
-		x= 1-b;
+	@Override
+	public boolean execute(){
 		
 		
-		
+		return false;
 	}
 }

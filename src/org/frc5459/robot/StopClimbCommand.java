@@ -9,6 +9,7 @@ public class StopClimbCommand extends Command{
 	
 	public StopClimbCommand(TalonController ClimberMotor){
 		this.ClimberMotor =ClimberMotor;
+
 	}
 
 	@Override

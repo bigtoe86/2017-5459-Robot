@@ -12,7 +12,8 @@ import org.strongback.components.ui.FlightStick;
 import org.strongback.control.TalonController;
 import org.strongback.control.TalonController.ControlMode;
 import org.strongback.hardware.Hardware;
-
+import org.frc5459.robot.BucketExtendCommand;
+import org.frc5459.robot.BucketRetractCommand;
 import com.ctre.CANTalon;
 import com.ctre.CANTalon.TalonControlMode;
 
@@ -33,7 +34,7 @@ public class Robot extends IterativeRobot {
 	private TalonController topLeft;
 	private TalonController middleLeft;
 	private TalonController bottomLeft;
-	private ADIS16448_IMU imu;
+	private ADIS16448IMU imu;
 	String[] bucketPosition = new String[2];
 
 
@@ -74,7 +75,7 @@ public class Robot extends IterativeRobot {
     	bottomLeft.setControlMode(ControlMode.FOLLOWER); //TalonSRX #7
     	bottomLeft.withTarget(topLeft.getDeviceID());
     	//Sensors
-    	imu = new ADIS16448_IMU();
+    	imu = new ADIS16448IMU();
     	
   
     }   
@@ -88,10 +89,10 @@ public class Robot extends IterativeRobot {
 
     @Override
     public void teleopPeriodic() {
-    	reactor.onTriggered(operator.getButton(5), () -> Strongback.submit(new BucketExtendCommand(bucket)));
-    	reactor.onTriggered(operator.getButton(3), () -> Strongback.submit(new BucketRetractCommand(bucket)));
-    	
-    	
+    	reactor.onTriggered(operator.getButton(3), () -> Strongback.submit(new BucketExtendCommand(bucket)));
+    	reactor.onTriggered(operator.getButton(5), () -> Strongback.submit(new BucketRetractCommand(bucket)));
+    	reactor.whileTriggered(operator.getTrigger(), () -> Strongback.submit(new AscendClimbCommand(climber)));
+    	reactor.whileUntriggered(operator.getTrigger(), () -> Strongback.submit(new StopClimbCommand(climber)));
     	
     	
     }

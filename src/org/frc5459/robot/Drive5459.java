@@ -8,7 +8,6 @@ import org.strongback.components.Solenoid;
 import org.strongback.components.TalonSRX.StatusFrameRate;
 import org.strongback.control.TalonController;
 import org.strongback.control.TalonController.ControlMode;
-
 import edu.wpi.first.wpilibj.Ultrasonic;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
@@ -17,7 +16,7 @@ public class Drive5459 {
 	private TalonController leftController;
 	private Ultrasonic ultraX;
 	private Ultrasonic ultraY;
-	private ADIS16448_IMU imu;
+	private ADIS16448IMU imu;
 	private Solenoid gearShift;
 	private double targetAngle;
 	String[] rightControllerValues = new String[8];
@@ -29,7 +28,7 @@ public class Drive5459 {
 		LOWGEAR,
 	}
 	
-	public Drive5459(TalonController right, TalonController left, Ultrasonic ultraX, Ultrasonic ultraY, ADIS16448_IMU imu, Solenoid gearShift){
+	public Drive5459(TalonController right, TalonController left, Ultrasonic ultraX, Ultrasonic ultraY, ADIS16448IMU imu, Solenoid gearShift){
 		this.ultraX = ultraX;
 		this.ultraY = ultraY;
 		this.imu = imu;
