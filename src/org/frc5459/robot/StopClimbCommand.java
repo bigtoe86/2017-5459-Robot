@@ -8,7 +8,7 @@ public class StopClimbCommand extends Command{
 	private TalonController ClimberMotor;
 	
 	public StopClimbCommand(TalonController ClimberMotor){
-		this.ClimberMotor =ClimberMotor;
+		this.ClimberMotor = ClimberMotor;
 
 	}
 

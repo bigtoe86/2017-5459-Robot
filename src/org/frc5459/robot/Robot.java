@@ -3,6 +3,7 @@ package org.frc5459.robot;
 
 import org.strongback.Strongback;
 import org.strongback.SwitchReactor;
+import org.strongback.components.DistanceSensor;
 import org.strongback.components.Gyroscope;
 import org.strongback.components.Solenoid;
 import org.strongback.components.Solenoid.Direction;
@@ -20,6 +21,7 @@ import com.ctre.CANTalon.TalonControlMode;
 import edu.wpi.first.wpilibj.Encoder;
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.SPI;
+import edu.wpi.first.wpilibj.networktables.NetworkTable;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 
@@ -36,6 +38,11 @@ public class Robot extends IterativeRobot {
 	private TalonController bottomLeft;
 	private ADIS16448IMU imu;
 	String[] bucketPosition = new String[2];
+	private NetworkTable dataBase;
+	private double distance;
+	private double horizontalDistance;
+	private double rotationalAngle;
+	
 
 
 	
@@ -80,11 +87,26 @@ public class Robot extends IterativeRobot {
   
     }   
     
+    @Override
+    public void autonomousInit() {
+    	
+    	Strongback.start();
+//    	NetworkTable.setClientMode();
+//    	NetworkTable.setIPAddress("10.10.148.120");
+    	NetworkTable dataBase = NetworkTable.getTable("SmartDashboard");
+    	
+    }
+    
+    @Override
+    public void autonomousPeriodic() {
+    	
+    	
+    	
+    }
     
     @Override
     public void teleopInit() {
-        // Start Strongback functions ...
-        Strongback.start();
+        
     }
 
     @Override
@@ -93,8 +115,12 @@ public class Robot extends IterativeRobot {
     	reactor.onTriggered(operator.getButton(5), () -> Strongback.submit(new BucketRetractCommand(bucket)));
     	reactor.whileTriggered(operator.getTrigger(), () -> Strongback.submit(new AscendClimbCommand(climber)));
     	reactor.whileUntriggered(operator.getTrigger(), () -> Strongback.submit(new StopClimbCommand(climber)));
-    	
-    	
+    	distance = dataBase.getNumber("Distance", 0.0);
+    	horizontalDistance = dataBase.getNumber("horizontalDistance", 0.0);
+    	rotationalAngle = dataBase.getNumber("rotationAngle", 0.0);
+    	System.out.println(distance);
+    	System.out.println(horizontalDistance);
+    	System.out.println(rotationalAngle);
     }
 
     @Override
@@ -103,5 +129,7 @@ public class Robot extends IterativeRobot {
         Strongback.disable();
     }
 
+    
+    
 }
 

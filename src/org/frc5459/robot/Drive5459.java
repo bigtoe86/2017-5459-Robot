@@ -21,11 +21,12 @@ public class Drive5459 {
 	private double targetAngle;
 	String[] rightControllerValues = new String[8];
 	String[] leftControllerValues = new String[8];
+	private currentGear gear;
+	private boolean driverEnabled = true;
 	
-	
-	static enum currentGear{
+	public static enum currentGear{
 		HIGHGEAR,
-		LOWGEAR,
+		LOWGEAR;
 	}
 	
 	public Drive5459(TalonController right, TalonController left, Ultrasonic ultraX, Ultrasonic ultraY, ADIS16448IMU imu, Solenoid gearShift){
@@ -35,8 +36,10 @@ public class Drive5459 {
 		this.gearShift = gearShift;
 		this.rightController = right;
 		this.leftController = left;
+		this.gear = currentGear.LOWGEAR;
 		
 	}
+	
 	
 	public void rightControllerReturn(){
 		//try to find velocity of wheel difference in encoder rotation * circumfrence of wheel / time passed 
@@ -115,10 +118,12 @@ public class Drive5459 {
 	
 	public void extend(){
 		gearShift.extend();
+		gear = currentGear.HIGHGEAR;
 	}
 	
 	public void retract(){
 		gearShift.retract();
+		gear = currentGear.LOWGEAR;
 	}
 	
 	public double imuX(){
@@ -131,12 +136,27 @@ public class Drive5459 {
 		return imu.getAngleZ();
 	}
 	
+	public currentGear getCurrentGear(){
+		return gear;
+	}
+	public double getRightPower(){
+		return rightController.getSpeed();
+	}
+	
+	public double getLeftPower(){
+		return leftController.getSpeed();
+	}
+	
 	//TODO write get acceleration methods
 	
+	public void setDriverEnabled(boolean state){
+		this.driverEnabled = state;
+	}
 	
 	
-	
-		
+	public boolean isDriverEnabled(){
+		return this.driverEnabled;
+	}
 	
 	
 	
