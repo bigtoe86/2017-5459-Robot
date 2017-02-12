@@ -8,6 +8,8 @@ import org.strongback.control.TalonController;
 import org.strongback.control.TalonController.ControlMode;
 
 import org.strongback.components.DistanceSensor;
+
+import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 
@@ -21,6 +23,18 @@ public class Drive5459 {
 	private double targetAngle;
 	String[] rightControllerValues = new String[8];
 	String[] leftControllerValues = new String[8];
+	
+	private long elapsedTime;
+	private long currentTime;
+	private long startCountRight;
+	private long endCountRight;
+	private long startCountLeft;
+	private long endCountLeft;
+	private long deltaRight;
+	private long deltaLeft;
+	private long deltaCount;
+	private long displacement;
+	double inchPerSec;
 
 	private currentGear gear;
 	private boolean driverEnabled = true;
@@ -69,10 +83,24 @@ public class Drive5459 {
 		leftControllerValues[x++] = "" + leftController.getEncoderInput().getHeading();
 	}
 	
-//	public void getVelocity(){
-//
-//		(12 * y) / timer.get
-//	}
+	public void getVelocity(){
+		startCountRight = (long)rightController.getValue();
+		startCountLeft = (long)leftController.getValue();
+		currentTime = System.currentTimeMillis();
+		for (int v = 0; v < 5; v++){
+			Timer.delay(0.02);
+		}
+		endCountRight = (long)rightController.getValue();
+		endCountLeft = (long)leftController.getValue();
+		elapsedTime = System.currentTimeMillis() - currentTime;
+		deltaRight = endCountRight - startCountRight;
+		deltaLeft = endCountLeft - startCountLeft;
+		deltaCount = (deltaRight + deltaLeft) / 2;
+		elapsedTime = elapsedTime * 1000;
+		displacement = (long)(deltaCount/375.95);
+		inchPerSec = displacement/deltaCount;
+		
+	}
 
 	public void setSpeedRight(double power){
 		rightController.setControlMode(ControlMode.SPEED);
