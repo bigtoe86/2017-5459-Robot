@@ -44,6 +44,7 @@ public class DisplayData extends Command{
 		SmartDashboard.putString("Left Controller is Within Tolerance", drive5459.leftControllerValues[x++]);
 		SmartDashboard.putString("Left Controller Direction", drive5459.leftControllerValues[x++]);
 		SmartDashboard.putString("Left Controller Heading", drive5459.leftControllerValues[x++]);
+		SmartDashboard.putNumber("Velocity", drive5459.inchPerSec);
 		//Bucket
 		
 		
