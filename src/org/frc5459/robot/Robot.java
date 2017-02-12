@@ -3,25 +3,26 @@ package org.frc5459.robot;
 
 import org.strongback.Strongback;
 import org.strongback.SwitchReactor;
+
+import org.strongback.components.DistanceSensor;
 import org.strongback.components.Solenoid;
 import org.strongback.components.Solenoid.Direction;
 import org.strongback.components.TalonSRX.FeedbackDevice;
-import org.strongback.components.ui.FlightStick;
+import org.strongback.components.ui.Gamepad;
 import org.strongback.control.TalonController;
 import org.strongback.control.TalonController.ControlMode;
 import org.strongback.hardware.Hardware;
-
+import org.frc5459.robot.BucketExtendCommand;
+import org.frc5459.robot.BucketRetractCommand;
 import edu.wpi.first.wpilibj.IterativeRobot;
-import edu.wpi.first.wpilibj.Ultrasonic;
+import edu.wpi.first.wpilibj.networktables.NetworkTable;
 
 
 public class Robot extends IterativeRobot {
-	private Drive5459 drive;
-	private FlightStick operator;
-	private FlightStick flightStick1;
-	private FlightStick flightStick2;
+	private Gamepad driver;
+	private Gamepad operator;
 	private Solenoid bucket;
-	private Solenoid gearShift;
+	private Solenoid shifter;
 	private SwitchReactor reactor;
 	private TalonController topRight;
 	private TalonController middleRight;
@@ -30,19 +31,23 @@ public class Robot extends IterativeRobot {
 	private TalonController topLeft;
 	private TalonController middleLeft;
 	private TalonController bottomLeft;
-	private Ultrasonic ultraX;
-	private Ultrasonic ultraY;
-	private ADIS16448_IMU imu;
+	private ADIS16448IMU imu;
+	private DistanceSensor ultraX;
+	private DistanceSensor ultraY;
 	String[] bucketPosition = new String[2];
-
-
+	private NetworkTable dataBase;
+	private double distance;
+	private double horizontalDistance;
+	private double rotationalAngle;
+	private Drive5459 drive;
 	
 
 
     @Override
     public void robotInit() {
     	//User Interfaces
-    	operator = Hardware.HumanInterfaceDevices.logitechAttack3D(0);
+    	driver = Hardware.HumanInterfaceDevices.xbox360(0);
+    	operator = Hardware.HumanInterfaceDevices.xbox360(1);
     	reactor = Strongback.switchReactor();
     	
     	//Manipulator 
@@ -73,28 +78,51 @@ public class Robot extends IterativeRobot {
     	bottomLeft.setControlMode(ControlMode.FOLLOWER); //TalonSRX #7
     	bottomLeft.withTarget(topLeft.getDeviceID());
     	//Sensors
-    	imu = new ADIS16448_IMU();
-    	Drive5459 drive = new Drive5459(topRight, topLeft, ultraX, ultraY, imu, gearShift, flightStick1, flightStick2);
+    	imu = new ADIS16448IMU();
+    	//drive
+    	drive = new Drive5459(topRight, topLeft, ultraX, ultraY, imu, shifter);
+    	dataBase = NetworkTable.getTable("SmartDashboard");
+
   
     }   
     
+    @Override
+    public void autonomousInit() {
+    	
+    	Strongback.start();
+//    	NetworkTable.setClientMode();
+//    	NetworkTable.setIPAddress("10.10.148.120");
+    	
+    }
+    
+    @Override
+    public void autonomousPeriodic() {
+    	
+    	
+    	
+    }
     
     @Override
     public void teleopInit() {
-        // Start Strongback functions ...
-        Strongback.start();
+        Strongback.submit(new TeleopDriveCommand(drive, driver));
     }
 
     @Override
-    public void teleopPeriodic() {
-    	drive.setSpeedRight(flightStick1.getPitch().read());
-    	drive.setSpeedLeft(flightStick2.getPitch().read());
-    	reactor.onTriggered(operator.getButton(5), () -> Strongback.submit(new BucketExtendCommand(bucket)));
-    	reactor.onTriggered(operator.getButton(3), () -> Strongback.submit(new BucketRetractCommand(bucket)));
-    	
-    	
-    	
-    	
+    public void teleopPeriodic() {    	
+    	if (operator.getRightTrigger().read() > 0.5) {
+    		Strongback.submit(new BucketExtendCommand(bucket));
+		}else if( operator.getLeftTrigger().read() > 0.5){
+			Strongback.submit(new BucketRetractCommand(bucket));
+		}
+
+    	reactor.whileTriggered(operator.getRightBumper(), () -> Strongback.submit(new AscendClimbCommand(climber)));
+    	reactor.whileUntriggered(operator.getRightBumper(), () -> Strongback.submit(new StopClimbCommand(climber)));
+    	distance = dataBase.getNumber("Distance", 0.0);
+    	horizontalDistance = dataBase.getNumber("horizontalDistance", 0.0);
+    	rotationalAngle = dataBase.getNumber("rotationAngle", 0.0);
+    	System.out.println(distance);
+    	System.out.println(horizontalDistance);
+    	System.out.println(rotationalAngle);
     }
 
     @Override
@@ -103,5 +131,7 @@ public class Robot extends IterativeRobot {
         Strongback.disable();
     }
 
+    
+    
 }
 

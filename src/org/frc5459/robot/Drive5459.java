@@ -4,44 +4,45 @@ package org.frc5459.robot;
 
 import org.strongback.components.Solenoid;
 import org.strongback.components.TalonSRX.StatusFrameRate;
-import org.strongback.components.ui.FlightStick;
 import org.strongback.control.TalonController;
 import org.strongback.control.TalonController.ControlMode;
 
-import edu.wpi.first.wpilibj.Ultrasonic;
+import org.strongback.components.DistanceSensor;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+
 
 public class Drive5459 {
 	private TalonController rightController;
 	private TalonController leftController;
-	private Ultrasonic ultraX;
-	private Ultrasonic ultraY;
-	private ADIS16448_IMU imu;
+	private DistanceSensor ultraX;
+	private DistanceSensor ultraY;
+	private ADIS16448IMU imu;
 	private Solenoid gearShift;
 	private double targetAngle;
 	String[] rightControllerValues = new String[8];
 	String[] leftControllerValues = new String[8];
-	private FlightStick flightStick1;
-	private FlightStick flightStick2;
+
+	private currentGear gear;
+	private boolean driverEnabled = true;
+
 	
-	
-	
-	static enum currentGear{
+	public static enum currentGear{
 		HIGHGEAR,
-		LOWGEAR,
+		LOWGEAR;
 	}
 	
-	public Drive5459(TalonController right, TalonController left, Ultrasonic ultraX, Ultrasonic ultraY, ADIS16448_IMU imu, Solenoid gearShift,
-			FlightStick flightStick1, FlightStick flightStick2){
+
+	public Drive5459(TalonController right, TalonController left, DistanceSensor ultraX, DistanceSensor ultraY, ADIS16448IMU imu, Solenoid gearShift){
 		this.ultraX = ultraX;
 		this.ultraY = ultraY;
 		this.imu = imu;
 		this.gearShift = gearShift;
 		this.rightController = right;
 		this.leftController = left;
-		this.flightStick1 = flightStick1;
-		this.flightStick2 = flightStick2;
+		this.gear = currentGear.LOWGEAR;
 		
 	}
+	
 	
 	public void rightControllerReturn(){
 		//try to find velocity of wheel difference in encoder rotation * circumfrence of wheel / time passed 
@@ -75,14 +76,12 @@ public class Drive5459 {
 
 	public void setSpeedRight(double power){
 		rightController.setControlMode(ControlMode.SPEED);
-		rightController.setSpeed(flightStick1.getPitch().read());
-		//changed power to pitch for driving
+		rightController.setSpeed(power);
 	}
 	
 	public void setSpeedLeft(double power){
 		leftController.setControlMode(ControlMode.SPEED);
-		leftController.setSpeed(flightStick2.getPitch().read());
-		//changed power to pitch for driving 
+		leftController.setSpeed(power); 
 	}
 	
 	public void setEncoderTargetAngleRight(double targetAngle){
@@ -108,11 +107,11 @@ public class Drive5459 {
 	}
 	
 	public double getUltrasonicX(){
-		return ultraX.getRangeInches();
+		return ultraX.getDistanceInInches();
 	}
 	
 	public double getUltrasonicY(){
-		return ultraY.getRangeInches();
+		return ultraY.getDistanceInInches();
 	}
 	
 	public double gyroAngle(){
@@ -122,10 +121,12 @@ public class Drive5459 {
 	
 	public void extend(){
 		gearShift.extend();
+		gear = currentGear.HIGHGEAR;
 	}
 	
 	public void retract(){
 		gearShift.retract();
+		gear = currentGear.LOWGEAR;
 	}
 	
 	public double imuX(){
@@ -138,12 +139,27 @@ public class Drive5459 {
 		return imu.getAngleZ();
 	}
 	
+	public currentGear getCurrentGear(){
+		return gear;
+	}
+	public double getRightPower(){
+		return rightController.getSpeed();
+	}
+	
+	public double getLeftPower(){
+		return leftController.getSpeed();
+	}
+	
 	//TODO write get acceleration methods
 	
+	public void setDriverEnabled(boolean state){
+		this.driverEnabled = state;
+	}
 	
 	
-	
-		
+	public boolean isDriverEnabled(){
+		return this.driverEnabled;
+	}
 	
 	
 	
