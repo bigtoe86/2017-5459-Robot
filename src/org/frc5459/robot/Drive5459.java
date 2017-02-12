@@ -103,11 +103,11 @@ public class Drive5459 {
 		return leftController.getValue();
 	}
 	
-	public double getDistanceSensorX(){
+	public double getUltrasonicX(){
 		return ultraX.getDistanceInInches();
 	}
 	
-	public double getDistanceSensorY(){
+	public double getUltrasonicY(){
 		return ultraY.getDistanceInInches();
 	}
 	
