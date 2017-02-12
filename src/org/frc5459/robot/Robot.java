@@ -4,30 +4,24 @@ package org.frc5459.robot;
 import org.strongback.Strongback;
 import org.strongback.SwitchReactor;
 import org.strongback.components.DistanceSensor;
-import org.strongback.components.Gyroscope;
 import org.strongback.components.Solenoid;
 import org.strongback.components.Solenoid.Direction;
 import org.strongback.components.TalonSRX.FeedbackDevice;
-import org.strongback.components.TalonSRX;
-import org.strongback.components.ui.FlightStick;
+import org.strongback.components.ui.Gamepad;
 import org.strongback.control.TalonController;
 import org.strongback.control.TalonController.ControlMode;
 import org.strongback.hardware.Hardware;
 import org.frc5459.robot.BucketExtendCommand;
 import org.frc5459.robot.BucketRetractCommand;
-import com.ctre.CANTalon;
-import com.ctre.CANTalon.TalonControlMode;
-
-import edu.wpi.first.wpilibj.Encoder;
 import edu.wpi.first.wpilibj.IterativeRobot;
-import edu.wpi.first.wpilibj.SPI;
 import edu.wpi.first.wpilibj.networktables.NetworkTable;
-import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 
 public class Robot extends IterativeRobot {
-	private FlightStick operator;
+	private Gamepad driver;
+	private Gamepad operator;
 	private Solenoid bucket;
+	private Solenoid shifter;
 	private SwitchReactor reactor;
 	private TalonController topRight;
 	private TalonController middleRight;
@@ -37,21 +31,22 @@ public class Robot extends IterativeRobot {
 	private TalonController middleLeft;
 	private TalonController bottomLeft;
 	private ADIS16448IMU imu;
+	private DistanceSensor ultraX;
+	private DistanceSensor ultraY;
 	String[] bucketPosition = new String[2];
 	private NetworkTable dataBase;
 	private double distance;
 	private double horizontalDistance;
 	private double rotationalAngle;
-	
-
-
+	private Drive5459 drive;
 	
 
 
     @Override
     public void robotInit() {
     	//User Interfaces
-    	operator = Hardware.HumanInterfaceDevices.logitechAttack3D(0);
+    	driver = Hardware.HumanInterfaceDevices.xbox360(0);
+    	operator = Hardware.HumanInterfaceDevices.xbox360(1);
     	reactor = Strongback.switchReactor();
     	
     	//Manipulator 
@@ -84,6 +79,8 @@ public class Robot extends IterativeRobot {
     	//Sensors
     	imu = new ADIS16448IMU();
     	
+    	drive = new Drive5459(topRight, topLeft, ultraX, ultraY, imu, shifter);
+    	dataBase = NetworkTable.getTable("SmartDashboard");
   
     }   
     
@@ -93,7 +90,6 @@ public class Robot extends IterativeRobot {
     	Strongback.start();
 //    	NetworkTable.setClientMode();
 //    	NetworkTable.setIPAddress("10.10.148.120");
-    	NetworkTable dataBase = NetworkTable.getTable("SmartDashboard");
     	
     }
     
@@ -106,15 +102,20 @@ public class Robot extends IterativeRobot {
     
     @Override
     public void teleopInit() {
-        
+        Strongback.submit(new TeleopDriveCommand(drive, driver));
     }
 
     @Override
     public void teleopPeriodic() {
-    	reactor.onTriggered(operator.getButton(3), () -> Strongback.submit(new BucketExtendCommand(bucket)));
-    	reactor.onTriggered(operator.getButton(5), () -> Strongback.submit(new BucketRetractCommand(bucket)));
-    	reactor.whileTriggered(operator.getTrigger(), () -> Strongback.submit(new AscendClimbCommand(climber)));
-    	reactor.whileUntriggered(operator.getTrigger(), () -> Strongback.submit(new StopClimbCommand(climber)));
+    	
+    	if (operator.getRightTrigger().read() > 0.5) {
+    		Strongback.submit(new BucketExtendCommand(bucket));
+		}else if( operator.getLeftTrigger().read() > 0.5){
+			Strongback.submit(new BucketRetractCommand(bucket));
+		}
+
+    	reactor.whileTriggered(operator.getRightBumper(), () -> Strongback.submit(new AscendClimbCommand(climber)));
+    	reactor.whileUntriggered(operator.getRightBumper(), () -> Strongback.submit(new StopClimbCommand(climber)));
     	distance = dataBase.getNumber("Distance", 0.0);
     	horizontalDistance = dataBase.getNumber("horizontalDistance", 0.0);
     	rotationalAngle = dataBase.getNumber("rotationAngle", 0.0);

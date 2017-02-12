@@ -8,14 +8,14 @@ import org.strongback.components.Solenoid;
 import org.strongback.components.TalonSRX.StatusFrameRate;
 import org.strongback.control.TalonController;
 import org.strongback.control.TalonController.ControlMode;
-import edu.wpi.first.wpilibj.Ultrasonic;
+import org.strongback.components.DistanceSensor;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 public class Drive5459 {
 	private TalonController rightController;
 	private TalonController leftController;
-	private Ultrasonic ultraX;
-	private Ultrasonic ultraY;
+	private DistanceSensor ultraX;
+	private DistanceSensor ultraY;
 	private ADIS16448IMU imu;
 	private Solenoid gearShift;
 	private double targetAngle;
@@ -29,7 +29,7 @@ public class Drive5459 {
 		LOWGEAR;
 	}
 	
-	public Drive5459(TalonController right, TalonController left, Ultrasonic ultraX, Ultrasonic ultraY, ADIS16448IMU imu, Solenoid gearShift){
+	public Drive5459(TalonController right, TalonController left, DistanceSensor ultraX, DistanceSensor ultraY, ADIS16448IMU imu, Solenoid gearShift){
 		this.ultraX = ultraX;
 		this.ultraY = ultraY;
 		this.imu = imu;
@@ -103,12 +103,12 @@ public class Drive5459 {
 		return leftController.getValue();
 	}
 	
-	public double getUltrasonicX(){
-		return ultraX.getRangeInches();
+	public double getDistanceSensorX(){
+		return ultraX.getDistanceInInches();
 	}
 	
-	public double getUltrasonicY(){
-		return ultraY.getRangeInches();
+	public double getDistanceSensorY(){
+		return ultraY.getDistanceInInches();
 	}
 	
 	public double gyroAngle(){
