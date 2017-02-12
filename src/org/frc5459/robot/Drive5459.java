@@ -2,15 +2,13 @@ package org.frc5459.robot;
 
 
 
-import java.util.Timer;
-
 import org.strongback.components.Solenoid;
 import org.strongback.components.TalonSRX.StatusFrameRate;
+import org.strongback.components.ui.FlightStick;
 import org.strongback.control.TalonController;
 import org.strongback.control.TalonController.ControlMode;
 
 import edu.wpi.first.wpilibj.Ultrasonic;
-import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 public class Drive5459 {
 	private TalonController rightController;
@@ -22,6 +20,9 @@ public class Drive5459 {
 	private double targetAngle;
 	String[] rightControllerValues = new String[8];
 	String[] leftControllerValues = new String[8];
+	private FlightStick flightStick1;
+	private FlightStick flightStick2;
+	
 	
 	
 	static enum currentGear{
@@ -29,13 +30,16 @@ public class Drive5459 {
 		LOWGEAR,
 	}
 	
-	public Drive5459(TalonController right, TalonController left, Ultrasonic ultraX, Ultrasonic ultraY, ADIS16448_IMU imu, Solenoid gearShift){
+	public Drive5459(TalonController right, TalonController left, Ultrasonic ultraX, Ultrasonic ultraY, ADIS16448_IMU imu, Solenoid gearShift,
+			FlightStick flightStick1, FlightStick flightStick2){
 		this.ultraX = ultraX;
 		this.ultraY = ultraY;
 		this.imu = imu;
 		this.gearShift = gearShift;
 		this.rightController = right;
 		this.leftController = left;
+		this.flightStick1 = flightStick1;
+		this.flightStick2 = flightStick2;
 		
 	}
 	
@@ -69,14 +73,16 @@ public class Drive5459 {
 //		(12 * y) / timer.get
 //	}
 
-	public void setPowerRight(double power){
+	public void setSpeedRight(double power){
 		rightController.setControlMode(ControlMode.SPEED);
-		rightController.setSpeed(power);
+		rightController.setSpeed(flightStick1.getPitch().read());
+		//changed power to pitch for driving
 	}
 	
-	public void setPowerLeft(double power){
+	public void setSpeedLeft(double power){
 		leftController.setControlMode(ControlMode.SPEED);
-		leftController.setSpeed(power);
+		leftController.setSpeed(flightStick2.getPitch().read());
+		//changed power to pitch for driving 
 	}
 	
 	public void setEncoderTargetAngleRight(double targetAngle){

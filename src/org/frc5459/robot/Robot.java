@@ -3,28 +3,25 @@ package org.frc5459.robot;
 
 import org.strongback.Strongback;
 import org.strongback.SwitchReactor;
-import org.strongback.components.Gyroscope;
 import org.strongback.components.Solenoid;
 import org.strongback.components.Solenoid.Direction;
 import org.strongback.components.TalonSRX.FeedbackDevice;
-import org.strongback.components.TalonSRX;
 import org.strongback.components.ui.FlightStick;
 import org.strongback.control.TalonController;
 import org.strongback.control.TalonController.ControlMode;
 import org.strongback.hardware.Hardware;
 
-import com.ctre.CANTalon;
-import com.ctre.CANTalon.TalonControlMode;
-
-import edu.wpi.first.wpilibj.Encoder;
 import edu.wpi.first.wpilibj.IterativeRobot;
-import edu.wpi.first.wpilibj.SPI;
-import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+import edu.wpi.first.wpilibj.Ultrasonic;
 
 
 public class Robot extends IterativeRobot {
+	private Drive5459 drive;
 	private FlightStick operator;
+	private FlightStick flightStick1;
+	private FlightStick flightStick2;
 	private Solenoid bucket;
+	private Solenoid gearShift;
 	private SwitchReactor reactor;
 	private TalonController topRight;
 	private TalonController middleRight;
@@ -33,6 +30,8 @@ public class Robot extends IterativeRobot {
 	private TalonController topLeft;
 	private TalonController middleLeft;
 	private TalonController bottomLeft;
+	private Ultrasonic ultraX;
+	private Ultrasonic ultraY;
 	private ADIS16448_IMU imu;
 	String[] bucketPosition = new String[2];
 
@@ -75,7 +74,7 @@ public class Robot extends IterativeRobot {
     	bottomLeft.withTarget(topLeft.getDeviceID());
     	//Sensors
     	imu = new ADIS16448_IMU();
-    	
+    	Drive5459 drive = new Drive5459(topRight, topLeft, ultraX, ultraY, imu, gearShift, flightStick1, flightStick2);
   
     }   
     
@@ -88,6 +87,8 @@ public class Robot extends IterativeRobot {
 
     @Override
     public void teleopPeriodic() {
+    	drive.setSpeedRight(flightStick1.getPitch().read());
+    	drive.setSpeedLeft(flightStick2.getPitch().read());
     	reactor.onTriggered(operator.getButton(5), () -> Strongback.submit(new BucketExtendCommand(bucket)));
     	reactor.onTriggered(operator.getButton(3), () -> Strongback.submit(new BucketRetractCommand(bucket)));
     	
