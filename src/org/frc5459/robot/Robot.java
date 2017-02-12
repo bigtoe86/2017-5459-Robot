@@ -54,6 +54,7 @@ public class Robot extends IterativeRobot {
     	bucket = Hardware.Solenoids.doubleSolenoid(0, 1, Direction.EXTENDING);
     	//11.37
     	//Motors and Controllers
+    	shifter = Hardware.Solenoids.doubleSolenoid(2, 3, Direction.EXTENDING);
     	topRight = Hardware.Controllers.talonController(1, 11.37, 0); //TalonSRX #1
     	middleRight = Hardware.Controllers.talonController(2, 11.37, 0); //TalonSRX #2
     	bottomRight = Hardware.Controllers.talonController(3, 11.37, 0); //TalonSRX #3
@@ -61,6 +62,7 @@ public class Robot extends IterativeRobot {
     	topLeft = Hardware.Controllers.talonController(5, 11.37, 0); //TalonSRX #5
     	middleLeft = Hardware.Controllers.talonController(6, 11.37,0); //TalonSRX #6
     	bottomRight = Hardware.Controllers.talonController(7, 11.37,0); //TalonSRX #7
+    	climber.reverseOutput(true);
     	//Setting Followers
     	//topRight is Right Side Master (TalonSRX #1)
     	topRight.withGains(0.1, 0.001, 0.0);
@@ -73,6 +75,7 @@ public class Robot extends IterativeRobot {
     	//TopLeft is Right Side Master (TalonSRX #5)
     	topLeft.withGains(0.1, 0.001, 0.0);
     	topLeft.setFeedbackDevice(FeedbackDevice.MAGNETIC_ENCODER_ABSOLUTE);
+    	topLeft.reverseOutput(true);
     	middleLeft.setControlMode(ControlMode.FOLLOWER); //TalonSRX #6
     	middleLeft.withTarget(topLeft.getDeviceID());
     	bottomLeft.setControlMode(ControlMode.FOLLOWER); //TalonSRX #7
