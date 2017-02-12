@@ -3,6 +3,7 @@ package org.frc5459.robot;
 
 import org.strongback.Strongback;
 import org.strongback.SwitchReactor;
+
 import org.strongback.components.DistanceSensor;
 import org.strongback.components.Solenoid;
 import org.strongback.components.Solenoid.Direction;
@@ -78,9 +79,10 @@ public class Robot extends IterativeRobot {
     	bottomLeft.withTarget(topLeft.getDeviceID());
     	//Sensors
     	imu = new ADIS16448IMU();
-    	
+    	//drive
     	drive = new Drive5459(topRight, topLeft, ultraX, ultraY, imu, shifter);
     	dataBase = NetworkTable.getTable("SmartDashboard");
+
   
     }   
     
@@ -106,8 +108,7 @@ public class Robot extends IterativeRobot {
     }
 
     @Override
-    public void teleopPeriodic() {
-    	
+    public void teleopPeriodic() {    	
     	if (operator.getRightTrigger().read() > 0.5) {
     		Strongback.submit(new BucketExtendCommand(bucket));
 		}else if( operator.getLeftTrigger().read() > 0.5){

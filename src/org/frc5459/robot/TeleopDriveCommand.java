@@ -45,8 +45,8 @@ public class TeleopDriveCommand extends Command{
 	public boolean execute(){
 		if (drive.isDriverEnabled()) {
 			if (!shifting) {
-				drive.setPowerLeft(driver.getLeftY().read());
-				drive.setPowerRight(driver.getRightY().read());
+				drive.setSpeedLeft(driver.getLeftY().read());
+				drive.setSpeedRight(driver.getRightY().read());
 				currentTime = System.currentTimeMillis();
 				startCountLeft = (long)drive.leftEncoderValue();
 				startCountRight = (long)drive.rightEncoderValue();
@@ -72,8 +72,8 @@ public class TeleopDriveCommand extends Command{
 			}else {
 				if (((driver.getLeftY().read() > 0 && driver.getRightY().read() > 0) || (driver.getLeftY().read() < 0 && driver.getRightY().read() < 0))) {
 					if(shiftingUp){
-						drive.setPowerLeft(drive.getLeftPower()*0.2);
-						drive.setPowerRight(drive.getRightPower()*0.2);
+						drive.setSpeedLeft(drive.getLeftPower()*0.2);
+						drive.setSpeedRight(drive.getRightPower()*0.2);
 						isAtCorrectSpeed = false;
 						Strongback.submit(new ShiftUpCommand(drive));
 						Timer.delay(0.04);
@@ -86,15 +86,15 @@ public class TeleopDriveCommand extends Command{
 							rightPower = rightPower - Math.pow(Math.E, exponet);
 							leftPower = driver.getLeftY().read();
 							leftPower = leftPower - Math.pow(Math.E, exponet);
-							drive.setPowerLeft(leftPower);
-							drive.setPowerRight(rightPower);
+							drive.setSpeedLeft(leftPower);
+							drive.setSpeedRight(rightPower);
 							if (drive.getLeftPower() > driver.getLeftY().read()-0.1 || drive.getRightPower() > driver.getRightY().read() - 0.1) {
 								isAtCorrectSpeed = true;
 							}
 						}
 					}else {
-						drive.setPowerLeft(drive.getLeftPower()*0.2);
-						drive.setPowerRight(drive.getRightPower()*0.2);
+						drive.setSpeedLeft(drive.getLeftPower()*0.2);
+						drive.setSpeedRight(drive.getRightPower()*0.2);
 						isAtCorrectSpeed = false;
 						Strongback.submit(new ShiftDownCommand(drive));
 						Timer.delay(0.04);
@@ -107,8 +107,8 @@ public class TeleopDriveCommand extends Command{
 							rightPower = rightPower - Math.pow(Math.E, exponet);
 							leftPower = driver.getLeftY().read();
 							leftPower = leftPower - Math.pow(Math.E, exponet);
-							drive.setPowerLeft(leftPower);
-							drive.setPowerRight(rightPower);
+							drive.setSpeedLeft(leftPower);
+							drive.setSpeedRight(rightPower);
 							if (drive.getLeftPower() > driver.getLeftY().read()-0.1 || drive.getRightPower() > driver.getRightY().read() - 0.1) {
 								isAtCorrectSpeed = true;
 							}

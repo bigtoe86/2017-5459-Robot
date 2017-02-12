@@ -2,14 +2,14 @@ package org.frc5459.robot;
 
 
 
-import java.util.Timer;
-
 import org.strongback.components.Solenoid;
 import org.strongback.components.TalonSRX.StatusFrameRate;
 import org.strongback.control.TalonController;
 import org.strongback.control.TalonController.ControlMode;
+
 import org.strongback.components.DistanceSensor;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+
 
 public class Drive5459 {
 	private TalonController rightController;
@@ -21,14 +21,17 @@ public class Drive5459 {
 	private double targetAngle;
 	String[] rightControllerValues = new String[8];
 	String[] leftControllerValues = new String[8];
+
 	private currentGear gear;
 	private boolean driverEnabled = true;
+
 	
 	public static enum currentGear{
 		HIGHGEAR,
 		LOWGEAR;
 	}
 	
+
 	public Drive5459(TalonController right, TalonController left, DistanceSensor ultraX, DistanceSensor ultraY, ADIS16448IMU imu, Solenoid gearShift){
 		this.ultraX = ultraX;
 		this.ultraY = ultraY;
@@ -71,14 +74,14 @@ public class Drive5459 {
 //		(12 * y) / timer.get
 //	}
 
-	public void setPowerRight(double power){
+	public void setSpeedRight(double power){
 		rightController.setControlMode(ControlMode.SPEED);
 		rightController.setSpeed(power);
 	}
 	
-	public void setPowerLeft(double power){
+	public void setSpeedLeft(double power){
 		leftController.setControlMode(ControlMode.SPEED);
-		leftController.setSpeed(power);
+		leftController.setSpeed(power); 
 	}
 	
 	public void setEncoderTargetAngleRight(double targetAngle){
