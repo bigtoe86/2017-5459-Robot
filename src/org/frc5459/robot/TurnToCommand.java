@@ -24,17 +24,17 @@ public class TurnToCommand extends Command{
 	}
 	public boolean execute(){
 		b = targetTurn;
-		a = drive.imuY; //needs current rotation
+		a = drive.imuY(); //needs current rotation
 		c = a - b; //above
 		if(a != b){
 			if (c >= 90){
 				//where left is put
-				drive.setPowerRight(1.0);
-				drive.setPowerLeft(-1.0);
+				drive.setSpeedRight(1.0);
+				drive.setSpeedLeft(-1.0);
 			}else{
 				//where right is put
-				drive.setPowerRight(-1.0);
-				drive.setPowerLeft(1.0);
+				drive.setSpeedRight(-1.0);
+				drive.setSpeedLeft(1.0);
 			}
 		}
 		if(a != b){

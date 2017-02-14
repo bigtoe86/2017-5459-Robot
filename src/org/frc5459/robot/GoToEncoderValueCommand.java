@@ -20,11 +20,11 @@ public class GoToEncoderValueCommand extends Command {
 	}
 	public boolean execute(){
 		targetDistance = encoderGlobalVariable;
-		distance = Drive5459.getEncoderValue();
+//		distance = Drive5459.getEncoderValue();
 		trueTargetDistance = targetDistance * 325.9493234522016;
 		if(trueTargetDistance != distance){
-			drive.setPowerRight(1.0);
-			drive.setPowerLeft(1.0);
+			drive.setSpeedRight(1.0);
+			drive.setSpeedLeft(1.0);
 		}
 		
 		if(trueTargetDistance == distance){
@@ -34,4 +34,5 @@ public class GoToEncoderValueCommand extends Command {
 		}
 		
 	}
+	
 }
