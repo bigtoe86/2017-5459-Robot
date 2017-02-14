@@ -63,9 +63,10 @@ public class Robot extends IterativeRobot {
     	middleLeft = Hardware.Controllers.talonController(6, 11.37,0); //TalonSRX #6
     	bottomRight = Hardware.Controllers.talonController(7, 11.37,0); //TalonSRX #7
     	climber.reverseOutput(true);
+    	
     	//Setting Followers
     	//topRight is Right Side Master (TalonSRX #1)
-    	topRight.withGains(0.1, 0.001, 0.0);
+    	topRight.withGains(0.062, 0.00062, 0.62);//TODO: make multiple profiles
     	topRight.setFeedbackDevice(FeedbackDevice.MAGNETIC_ENCODER_ABSOLUTE);
     	middleRight.setControlMode(ControlMode.FOLLOWER);//TalonSRX #2
     	middleRight.withTarget(topRight.getDeviceID());
@@ -73,7 +74,7 @@ public class Robot extends IterativeRobot {
     	bottomRight.withTarget(topRight.getDeviceID());
     	//climber is the climber Motor (TalonSRX #4)
     	//TopLeft is Right Side Master (TalonSRX #5)
-    	topLeft.withGains(0.1, 0.001, 0.0);
+    	topLeft.withGains(0.062, 0.00062, 0.62);
     	topLeft.setFeedbackDevice(FeedbackDevice.MAGNETIC_ENCODER_ABSOLUTE);
     	topLeft.reverseOutput(true);
     	middleLeft.setControlMode(ControlMode.FOLLOWER); //TalonSRX #6
