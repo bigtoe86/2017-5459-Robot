@@ -4,14 +4,23 @@ import java.util.function.DoubleConsumer;
 import java.util.function.DoubleSupplier;
 import java.util.function.Supplier;
 
+import org.junit.experimental.theories.Theories;
+import org.strongback.DataRecorder;
+import org.strongback.control.SoftwarePIDController;
 import org.strongback.control.SoftwarePIDController.SourceType;
 
 public class TurnToPIDCommand {
-
 	
-	 turnToPid = new SoftwarePIDController(model::getActualValue, model::setValue).withGains(0.9, 0.0, 0.0)
-			 +                                                                              .withInputRange(-1.0, 1.0)
-			 +                                                                              .withOutputRange(-1.0, 1.0)
-			 +                                                                              .withTolerance(0.02)
-			 +                                                                              .withTarget(0.5);
+SoftwarePIDController turnToPid;
+DataRecorder recorder;
+	public TurnToPIDCommand(){
+	this.turnToPid = turnToPid;    
+	turnToPid.withGains(5, 5, 0); //needs testing
+	turnToPid.withInputRange(-1, 1); //needs testing
+	turnToPid.withOutputRange(-1, 1);
+	turnToPid.withTolerance(1);
+	recorder.register("turnToPid", turnToPid.basicChannels());
+	}
+	
+	
 }
