@@ -10,6 +10,7 @@ import org.strongback.components.Solenoid.Direction;
 import org.strongback.components.TalonSRX.FeedbackDevice;
 import org.strongback.components.ui.FlightStick;
 import org.strongback.components.ui.Gamepad;
+import org.strongback.control.SoftwarePIDController;
 import org.strongback.control.TalonController;
 import org.strongback.control.TalonController.ControlMode;
 import org.strongback.hardware.Hardware;
@@ -40,6 +41,7 @@ public class Robot extends IterativeRobot {
 	private double horizontalDistance;
 	private double rotationalAngle;
 	private Drive5459 drive;
+	private SoftwarePIDController turnToPID;
 	
 
 
