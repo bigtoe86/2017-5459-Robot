@@ -67,25 +67,27 @@ public class Robot extends IterativeRobot {
     	
     	//Setting Followers
     	//topRight is Right Side Master (TalonSRX #1)
-    	topRight.withGains(0.062, 0.00062, 0.62);//TODO: make multiple profiles
-    	topRight.setFeedbackDevice(FeedbackDevice.MAGNETIC_ENCODER_ABSOLUTE);
-    	middleRight.setControlMode(ControlMode.FOLLOWER);//TalonSRX #2
-    	middleRight.withTarget(topRight.getDeviceID());
+//    	middleRight.withGains(0.062, 0.00062, 0.62);//TODO: make multiple profiles
+//    	middleRight.setFeedbackDevice(FeedbackDevice.MAGNETIC_ENCODER_ABSOLUTE);
+    	topRight.setControlMode(ControlMode.FOLLOWER);//TalonSRX #2
+    	topRight.withTarget(middleRight.getDeviceID());
+    	topRight.reverseOutput(true);
     	bottomRight.setControlMode(ControlMode.FOLLOWER); //TalonSRX #3
-    	bottomRight.withTarget(topRight.getDeviceID());
+    	bottomRight.withTarget(middleRight.getDeviceID());
     	//climber is the climber Motor (TalonSRX #4)
     	//TopLeft is Right Side Master (TalonSRX #5)
-    	topLeft.withGains(0.062, 0.00062, 0.62);
-    	topLeft.setFeedbackDevice(FeedbackDevice.MAGNETIC_ENCODER_ABSOLUTE);
+//    	middleLeft.withGains(0.062, 0.00062, 0.62);
+//    	middleLeft.setFeedbackDevice(FeedbackDevice.MAGNETIC_ENCODER_ABSOLUTE);
+    	
+    	topLeft.setControlMode(ControlMode.FOLLOWER); //TalonSRX #6
+    	topLeft.withTarget(middleLeft.getDeviceID());
     	topLeft.reverseOutput(true);
-    	middleLeft.setControlMode(ControlMode.FOLLOWER); //TalonSRX #6
-    	middleLeft.withTarget(topLeft.getDeviceID());
-    	//bottomLeft.setControlMode(ControlMode.FOLLOWER); //TalonSRX #7
-    	//bottomLeft.withTarget(topLeft.getDeviceID());
+    	bottomLeft.setControlMode(ControlMode.FOLLOWER); //TalonSRX #7
+    	bottomLeft.withTarget(middleLeft.getDeviceID());
     	//Sensors
-    	//imu = new ADIS16448IMU();
-    	//drive
-    	drive = new Drive5459(topRight, topLeft, ultraX, ultraY, null, shifter);
+//    	imu = new ADIS16448IMU();
+//    	//drive
+    	drive = new Drive5459(middleRight, middleLeft, ultraX, ultraY, imu, shifter);
     	//dataBase = NetworkTable.getTable("DataBase");
 
   
@@ -115,16 +117,23 @@ public class Robot extends IterativeRobot {
 
     @Override
     public void teleopPeriodic() {    	
-    	if (driver.getRightBumper().isTriggered()) {
-    		//Strongback.submit(new BucketExtendCommand(bucket));
-    		bucket.extend();
-		}else if( driver.getLeftBumper().isTriggered()){
-			//Strongback.submit(new BucketRetractCommand(bucket));
-			bucket.retract();
+//    	if (driver.getRightBumper().isTriggered()) {
+//    		//Strongback.submit(new BucketExtendCommand(bucket));
+//    		bucket.extend();
+//		}else if( driver.getLeftBumper().isTriggered()){
+//			//Strongback.submit(new BucketRetractCommand(bucket));
+//			bucket.retract();
+//		}
+    	if (driver.getA().isTriggered()) {
+			shifter.extend();
 		}
-
-    	//reactor.whileTriggered(driver.getRightBumper(), () -> Strongback.submit(new AscendClimbCommand(climber)));
-    	//reactor.whileUntriggered(driver.getRightBumper(), () -> Strongback.submit(new StopClimbCommand(climber)));
+    	if (driver.getB().isTriggered()) {
+			shifter.retract();
+		}
+    	drive.setSpeedLeft(-driver.getLeftY().read());
+		drive.setSpeedRight(driver.getRightY().read());
+    	reactor.whileTriggered(driver.getRightBumper(), () -> Strongback.submit(new AscendClimbCommand(climber)));
+    	reactor.whileUntriggered(driver.getRightBumper(), () -> Strongback.submit(new StopClimbCommand(climber)));
 //    	distance = dataBase.getNumber("Distance", 0.0);
 //    	horizontalDistance = dataBase.getNumber("horizontalDistance", 0.0);
 //    	rotationalAngle = dataBase.getNumber("rotationAngle", 0.0);
@@ -133,7 +142,7 @@ public class Robot extends IterativeRobot {
 //    	System.out.println("The horizontal distance is " + horizontalDistance);
 //    	System.out.println("The first angle is " + rotationalAngle + ".  The second one (based on dis) is " + angle);
 //    	//TODO: test the drive train today and try to get raspi done as well
-    	Timer.delay(0.05);
+//    	Timer.delay(0.05);
     }
 
     @Override
