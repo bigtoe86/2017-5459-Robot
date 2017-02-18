@@ -22,8 +22,8 @@ import edu.wpi.first.wpilibj.networktables.NetworkTable;
 public class Robot extends IterativeRobot {
 	private Gamepad driver;
 	private Gamepad operator;
-	private Solenoid bucket;
-	private Solenoid shifter;
+	//private Solenoid bucket;
+	//private Solenoid shifter;
 	private SwitchReactor reactor;
 	private TalonController topRight;
 	private TalonController middleRight;
@@ -53,17 +53,17 @@ public class Robot extends IterativeRobot {
     	reactor = Strongback.switchReactor();
     	
     	//Manipulator 
-    	bucket = Hardware.Solenoids.doubleSolenoid(0, 1, Direction.RETRACTING);
+    	//bucket = Hardware.Solenoids.doubleSolenoid(0, 1, Direction.RETRACTING);
     	System.out.println("hi");
     	//Motors and Controllers
-    	shifter = Hardware.Solenoids.doubleSolenoid(2, 3, Direction.EXTENDING);
+    	//shifter = Hardware.Solenoids.doubleSolenoid(2, 3, Direction.EXTENDING);
     	topRight = Hardware.Controllers.talonController(1, 11.37, 0); //TalonSRX #1
     	middleRight = Hardware.Controllers.talonController(2, 11.37, 0); //TalonSRX #2
     	bottomRight = Hardware.Controllers.talonController(3, 11.37, 0); //TalonSRX #3
     	climber = Hardware.Controllers.talonController(4, 11.37, 0); //TalonSRX #4
     	topLeft = Hardware.Controllers.talonController(5, 11.37, 0); //TalonSRX #5
     	middleLeft = Hardware.Controllers.talonController(6, 11.37,0); //TalonSRX #6
-    	bottomRight = Hardware.Controllers.talonController(7, 11.37,0); //TalonSRX #7
+    	bottomLeft = Hardware.Controllers.talonController(7, 11.37,0); //TalonSRX #7
     	climber.reverseOutput(true);
     	System.out.println("hello");
     	
@@ -87,9 +87,9 @@ public class Robot extends IterativeRobot {
     	bottomLeft.setControlMode(ControlMode.FOLLOWER); //TalonSRX #7
     	bottomLeft.withTarget(middleLeft.getDeviceID());
     	//Sensors
-//    	imu = new ADIS16448IMU();
-//    	//drive
-    	drive = new Drive5459(middleRight, middleLeft, ultraX, ultraY, imu, shifter);
+    	imu = new ADIS16448IMU();
+    	//drive
+    	drive = new Drive5459(middleRight, middleLeft, ultraX, ultraY, imu, null);
     	//dataBase = NetworkTable.getTable("DataBase");
 
   
@@ -126,12 +126,12 @@ public class Robot extends IterativeRobot {
 //			//Strongback.submit(new BucketRetractCommand(bucket));
 //			bucket.retract();
 //		}
-    	if (driver.getA().isTriggered()) {
-			shifter.extend();
-		}
-    	if (driver.getB().isTriggered()) {
-			shifter.retract();
-		}
+//    	if (driver.getA().isTriggered()) {
+//			shifter.extend();
+//		}
+//    	if (driver.getB().isTriggered()) {
+//			shifter.retract();
+//		}
     	drive.setSpeedLeft(-driver.getLeftY().read());
 		drive.setSpeedRight(driver.getRightY().read());
     	reactor.whileTriggered(driver.getRightBumper(), () -> Strongback.submit(new AscendClimbCommand(climber)));
