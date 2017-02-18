@@ -8,12 +8,13 @@ public class StopClimbCommand extends Command{
 	private TalonController ClimberMotor;
 	
 	public StopClimbCommand(TalonController ClimberMotor){
-		this.ClimberMotor =ClimberMotor;
+		this.ClimberMotor = ClimberMotor;
+
 	}
 
 	@Override
 	public boolean execute(){
-		ClimberMotor.stop();;
+		ClimberMotor.stop();
 		return true;
 	}
 }

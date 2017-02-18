@@ -4,16 +4,16 @@ import org.strongback.command.Command;
 import org.strongback.components.Solenoid;
 
 public class BucketExtendCommand extends Command {
-	private Solenoid Bucket;
+	private Solenoid bucket;
 	
 	
-	public BucketExtendCommand(Solenoid Bucket){
-		this.Bucket = Bucket;
+	public BucketExtendCommand(Solenoid bucket){
+		this.bucket = bucket;
 	}
 	
 	@Override
 	public boolean execute(){
-		Bucket.extend();
+		bucket.extend();
 		return true;
 	}
 	

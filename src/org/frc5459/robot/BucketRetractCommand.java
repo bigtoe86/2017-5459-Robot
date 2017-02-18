@@ -4,16 +4,16 @@ import org.strongback.command.Command;
 import org.strongback.components.Solenoid;
 
 public class BucketRetractCommand extends Command {
-	private Solenoid Bucket;
+	private Solenoid bucket;
 	
 	
-	public BucketRetractCommand(Solenoid Bucket){
-		this.Bucket = Bucket;
+	public BucketRetractCommand(Solenoid bucket){
+		this.bucket = bucket;
 	}
 	
 	@Override
 	public boolean execute(){
-		Bucket.retract();
+		bucket.retract();
 		return true;
 	}
 
