@@ -1,7 +1,3 @@
-# 2017-5459-Robot
-
-Testing out README
-
 #Routing Ticket Services
 
 
@@ -71,11 +67,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -84,11 +76,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -97,11 +85,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -110,11 +94,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>boolean </td>
-    
-
+                <td>boolean </td>  
 </tr>
 
 <tr>
@@ -123,11 +103,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 <tr>
@@ -136,11 +112,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 
@@ -255,11 +227,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -319,11 +287,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -386,11 +350,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -459,11 +419,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -472,11 +428,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -485,11 +437,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -498,11 +446,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>boolean </td>
-    
-
+                <td>boolean </td>  
 </tr>
 
 <tr>
@@ -511,11 +455,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 <tr>
@@ -524,11 +464,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 
@@ -643,11 +579,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -707,11 +639,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -774,11 +702,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -847,11 +771,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -860,11 +780,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -873,11 +789,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -886,11 +798,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>boolean </td>
-    
-
+                <td>boolean </td>  
 </tr>
 
 <tr>
@@ -899,11 +807,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 <tr>
@@ -912,11 +816,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 
@@ -1031,11 +931,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -1095,11 +991,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -1162,11 +1054,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -1235,11 +1123,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -1248,11 +1132,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -1261,11 +1141,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -1274,11 +1150,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>boolean </td>
-    
-
+                <td>boolean </td>  
 </tr>
 
 <tr>
@@ -1287,11 +1159,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 <tr>
@@ -1300,11 +1168,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 
@@ -1419,11 +1283,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -1483,11 +1343,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -1550,11 +1406,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -1623,11 +1475,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -1636,11 +1484,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -1649,11 +1493,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -1728,11 +1568,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -1741,11 +1577,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -1754,11 +1586,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -1833,11 +1661,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -1846,11 +1670,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -1859,11 +1679,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -1872,11 +1688,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>boolean </td>
-    
-
+                <td>boolean </td>  
 </tr>
 
 <tr>
@@ -1885,11 +1697,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 <tr>
@@ -1898,11 +1706,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 
@@ -2017,11 +1821,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -2081,11 +1881,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -2148,11 +1944,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -2221,11 +2013,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -2234,11 +2022,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -2247,11 +2031,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -2260,11 +2040,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>boolean </td>
-    
-
+                <td>boolean </td>  
 </tr>
 
 <tr>
@@ -2273,11 +2049,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 <tr>
@@ -2286,11 +2058,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 
@@ -2405,11 +2173,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -2469,11 +2233,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -2536,11 +2296,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -2609,11 +2365,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -2622,11 +2374,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -2635,11 +2383,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -2648,11 +2392,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>boolean </td>
-    
-
+                <td>boolean </td>  
 </tr>
 
 <tr>
@@ -2661,11 +2401,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 <tr>
@@ -2674,11 +2410,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 
@@ -2793,11 +2525,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -2857,11 +2585,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -2924,11 +2648,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -2997,11 +2717,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -3010,11 +2726,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -3023,11 +2735,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -3036,11 +2744,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>boolean </td>
-    
-
+                <td>boolean </td>  
 </tr>
 
 <tr>
@@ -3049,11 +2753,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 <tr>
@@ -3062,11 +2762,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 
@@ -3181,11 +2877,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -3245,11 +2937,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -3312,11 +3000,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -3385,11 +3069,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -3398,11 +3078,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -3411,11 +3087,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -3424,11 +3096,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>boolean </td>
-    
-
+                <td>boolean </td>  
 </tr>
 
 <tr>
@@ -3437,11 +3105,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 <tr>
@@ -3450,11 +3114,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 
@@ -3569,11 +3229,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -3633,11 +3289,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -3700,11 +3352,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -3773,11 +3421,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -3786,11 +3430,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -3799,11 +3439,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>boolean </td>
-    
-
+                <td>boolean </td>  
 </tr>
 
 <tr>
@@ -3812,11 +3448,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 <tr>
@@ -3825,11 +3457,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 
@@ -3944,11 +3572,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -4008,11 +3632,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -4075,11 +3695,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -4148,11 +3764,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -4161,11 +3773,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -4174,11 +3782,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>boolean </td>
-    
-
+                <td>boolean </td>  
 </tr>
 
 <tr>
@@ -4187,11 +3791,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 <tr>
@@ -4200,11 +3800,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 
@@ -4319,11 +3915,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -4383,11 +3975,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -4450,11 +4038,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -4523,11 +4107,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -4536,11 +4116,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -4549,11 +4125,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>boolean </td>
-    
-
+                <td>boolean </td>  
 </tr>
 
 <tr>
@@ -4562,11 +4134,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -4575,11 +4143,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -4588,11 +4152,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 <tr>
@@ -4601,11 +4161,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 
@@ -4720,11 +4276,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -4733,11 +4285,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -4812,11 +4360,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -4825,11 +4369,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -4904,11 +4444,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -4968,11 +4504,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -5035,11 +4567,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -5108,11 +4636,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5121,11 +4645,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5134,11 +4654,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5147,11 +4663,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -5226,11 +4738,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5239,11 +4747,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -5318,11 +4822,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5331,11 +4831,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+     <td>string </td>  
 </tr>
 
 
@@ -5410,11 +4906,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5423,11 +4915,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5436,11 +4924,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5449,11 +4933,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -5528,11 +5008,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5541,11 +5017,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5554,11 +5026,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5567,11 +5035,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -5646,11 +5110,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5659,11 +5119,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5672,11 +5128,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5685,11 +5137,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -5764,11 +5212,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5777,11 +5221,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5790,11 +5230,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>boolean </td>
-    
-
+                <td>boolean </td>  
 </tr>
 
 <tr>
@@ -5803,11 +5239,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5816,11 +5248,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -5895,11 +5323,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5908,11 +5332,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -5921,11 +5341,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>boolean </td>
-    
-
+                <td>boolean </td>  
 </tr>
 
 <tr>
@@ -5934,11 +5350,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 <tr>
@@ -5947,11 +5359,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 
@@ -6066,11 +5474,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -6130,11 +5534,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -6197,11 +5597,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -6270,11 +5666,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -6283,11 +5675,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -6296,11 +5684,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>boolean </td>
-    
-
+                <td>boolean </td>  
 </tr>
 
 <tr>
@@ -6309,11 +5693,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 <tr>
@@ -6322,11 +5702,7 @@ The routing services track the movement of a document or an activity through the
     <td>no</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>integer (int32)</td>
-    
-
+                <td>integer (int32)</td>  
 </tr>
 
 
@@ -6441,11 +5817,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -6505,11 +5877,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -6572,11 +5940,7 @@ The routing services track the movement of a document or an activity through the
     <td>yes</td>
     <td></td>
     <td> - </td>
-
-    
-            <td>string </td>
-    
-
+                <td>string </td>  
 </tr>
 
 
@@ -6611,1076 +5975,2749 @@ The routing services track the movement of a document or an activity through the
 
 ## <a name="/definitions/DateGETData">DateGETData</a>
 
-| name     | type | required | descriptione | example |
-|----------|------|----------|--------------|---------|
-
-| dateMilliseconds |  
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>type</th>
+        <th>required</th>
+        <th>description</th>
+        <th>example</th>
+    </tr>
+    
+        <tr>
+            <td>dateMilliseconds</td>
+            <td>
+                
                     
                     integer (int64)
-                    |   optional  | -  |  |
-
-| dateFormat |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dateFormat</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| formattedDate |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>formattedDate</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| year |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>year</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | -  |  |
-
-| month |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>month</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | -  |  |
-
-| dayOfMonth |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dayOfMonth</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | -  |  |
-
-| monthName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>monthName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-                  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+</table>
 
 ## <a name="/definitions/QueueOwnerRoleRefGETData">QueueOwnerRoleRefGETData</a>
 
-| name     | type | required | descriptione | example |
-|----------|------|----------|--------------|---------|
-
-| id |  
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>type</th>
+        <th>required</th>
+        <th>description</th>
+        <th>example</th>
+    </tr>
+    
+        <tr>
+            <td>id</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| createdByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>createdByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| lastUpdatedByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdatedByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| dateCreated |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dateCreated</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| lastUpdateDate |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdateDate</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| theURI |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>theURI</td>
+            <td>
+                
                     
                     string (uri)
-                    |   optional  | -  |  |
-
-| ticketDomainId |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>ticketDomainId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Fk to ticketDomainId  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| businessCode |  
+                
+            </td>
+            <td>optional</td>
+            <td>Fk to ticketDomainId</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>businessCode</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Unique code  | NORMAL |
-
-| name |  
+                
+            </td>
+            <td>optional</td>
+            <td>Unique code</td>
+            <td>NORMAL</td>
+        </tr>
+    
+        <tr>
+            <td>name</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Name of the role.  | Normal Queue Role |
-
-| description |  
+                
+            </td>
+            <td>optional</td>
+            <td>Name of the role.</td>
+            <td>Normal Queue Role</td>
+        </tr>
+    
+        <tr>
+            <td>description</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Long description of the object.  Supports multi-byte characters.  | Normal queue users can pull entries off the queue, and push entries onto the queue. |
-
-| isActive |  
+                
+            </td>
+            <td>optional</td>
+            <td>Long description of the object.  Supports multi-byte characters.</td>
+            <td>Normal queue users can pull entries off the queue, and push entries onto the queue.</td>
+        </tr>
+    
+        <tr>
+            <td>isActive</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | True and the role is in use  | 1 |
-                  
+                
+            </td>
+            <td>optional</td>
+            <td>True and the role is in use</td>
+            <td>1</td>
+        </tr>
+    
+</table>
 
 ## <a name="/definitions/RoutingActionReasonRefGETData">RoutingActionReasonRefGETData</a>
 
-| name     | type | required | descriptione | example |
-|----------|------|----------|--------------|---------|
-
-| id |  
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>type</th>
+        <th>required</th>
+        <th>description</th>
+        <th>example</th>
+    </tr>
+    
+        <tr>
+            <td>id</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| createdByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>createdByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| lastUpdatedByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdatedByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| dateCreated |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dateCreated</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| lastUpdateDate |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdateDate</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| theURI |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>theURI</td>
+            <td>
+                
                     
                     string (uri)
-                    |   optional  | -  |  |
-
-| ticketDomainId |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>ticketDomainId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Fk to ticketDomainId  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| businessCode |  
+                
+            </td>
+            <td>optional</td>
+            <td>Fk to ticketDomainId</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>businessCode</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Unique code in the ticket domain  | WRONGWORKER |
-
-| name |  
+                
+            </td>
+            <td>optional</td>
+            <td>Unique code in the ticket domain</td>
+            <td>WRONGWORKER</td>
+        </tr>
+    
+        <tr>
+            <td>name</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Reason name  | Wrong Worker Associated with the ticket. |
-
-| description |  
+                
+            </td>
+            <td>optional</td>
+            <td>Reason name</td>
+            <td>Wrong Worker Associated with the ticket.</td>
+        </tr>
+    
+        <tr>
+            <td>description</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Long description of the Reason.  Supports multi-byte characters.  | Use this reason if the ticket was routed to you incorrectly. |
-
-| isActive |  
+                
+            </td>
+            <td>optional</td>
+            <td>Long description of the Reason.  Supports multi-byte characters.</td>
+            <td>Use this reason if the ticket was routed to you incorrectly.</td>
+        </tr>
+    
+        <tr>
+            <td>isActive</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | True and the reason can be chosen.  | 1 |
-                  
+                
+            </td>
+            <td>optional</td>
+            <td>True and the reason can be chosen.</td>
+            <td>1</td>
+        </tr>
+    
+</table>
 
 ## <a name="/definitions/RoutingQueueGETData">RoutingQueueGETData</a>
 
-| name     | type | required | descriptione | example |
-|----------|------|----------|--------------|---------|
-
-| id |  
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>type</th>
+        <th>required</th>
+        <th>description</th>
+        <th>example</th>
+    </tr>
+    
+        <tr>
+            <td>id</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| createdByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>createdByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| lastUpdatedByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdatedByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| dateCreated |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dateCreated</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| lastUpdateDate |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdateDate</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| theURI |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>theURI</td>
+            <td>
+                
                     
                     string (uri)
-                    |   optional  | -  |  |
-
-| ticketDomainId |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>ticketDomainId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Fk to ticketDomainId  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| routingQueueGroupId |  
+                
+            </td>
+            <td>optional</td>
+            <td>Fk to ticketDomainId</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>routingQueueGroupId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The queue group this belongs to.  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| sequenceOrder |  
+                
+            </td>
+            <td>optional</td>
+            <td>The queue group this belongs to.</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>sequenceOrder</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | Order of the object in the full template or the template instance.  | 0 |
-
-| documentXtid |  
+                
+            </td>
+            <td>optional</td>
+            <td>Order of the object in the full template or the template instance.</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td>documentXtid</td>
+            <td>
+                
                     
                     string
-                    |   optional  | FK to Document_entity_type .  | Quote:75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| documentEntityType |  
+                
+            </td>
+            <td>optional</td>
+            <td>FK to Document_entity_type .</td>
+            <td>Quote:75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>documentEntityType</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Code for the document entity_type (to make it easier to read).  | Quote |
-
-| businessCode |  
+                
+            </td>
+            <td>optional</td>
+            <td>Code for the document entity_type (to make it easier to read).</td>
+            <td>Quote</td>
+        </tr>
+    
+        <tr>
+            <td>businessCode</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Code for lookup  | BOSTON_QUEUE |
-
-| name |  
+                
+            </td>
+            <td>optional</td>
+            <td>Code for lookup</td>
+            <td>BOSTON_QUEUE</td>
+        </tr>
+    
+        <tr>
+            <td>name</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Nice name for the queue.  | Boston Queue |
-
-| description |  
+                
+            </td>
+            <td>optional</td>
+            <td>Nice name for the queue.</td>
+            <td>Boston Queue</td>
+        </tr>
+    
+        <tr>
+            <td>description</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Long description of the object.  Supports multi-byte characters.  | This queue holds tickets from the Boston area. |
-
-| escalationQueueId |  
+                
+            </td>
+            <td>optional</td>
+            <td>Long description of the object.  Supports multi-byte characters.</td>
+            <td>This queue holds tickets from the Boston area.</td>
+        </tr>
+    
+        <tr>
+            <td>escalationQueueId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Once the escalation rule fires (basedon the ticket type), the ticket moves to this queue.  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-                  
+                
+            </td>
+            <td>optional</td>
+            <td>Once the escalation rule fires (basedon the ticket type), the ticket moves to this queue.</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+</table>
 
 ## <a name="/definitions/RoutingQueueGroupRefGETData">RoutingQueueGroupRefGETData</a>
 
-| name     | type | required | descriptione | example |
-|----------|------|----------|--------------|---------|
-
-| id |  
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>type</th>
+        <th>required</th>
+        <th>description</th>
+        <th>example</th>
+    </tr>
+    
+        <tr>
+            <td>id</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| createdByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>createdByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| lastUpdatedByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdatedByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| dateCreated |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dateCreated</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| lastUpdateDate |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdateDate</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| theURI |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>theURI</td>
+            <td>
+                
                     
                     string (uri)
-                    |   optional  | -  |  |
-
-| ticketDomainId |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>ticketDomainId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Fk to ticketDomainId  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| businessCode |  
+                
+            </td>
+            <td>optional</td>
+            <td>Fk to ticketDomainId</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>businessCode</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Code for the queue group  | US_QUEUES |
-
-| name |  
+                
+            </td>
+            <td>optional</td>
+            <td>Code for the queue group</td>
+            <td>US_QUEUES</td>
+        </tr>
+    
+        <tr>
+            <td>name</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Nice name of the queue group.  | United States Queues |
-
-| description |  
+                
+            </td>
+            <td>optional</td>
+            <td>Nice name of the queue group.</td>
+            <td>United States Queues</td>
+        </tr>
+    
+        <tr>
+            <td>description</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Long description of the object.  Supports multi-byte characters.  | The queues for the united states. |
-
-| isActive |  
+                
+            </td>
+            <td>optional</td>
+            <td>Long description of the object.  Supports multi-byte characters.</td>
+            <td>The queues for the united states.</td>
+        </tr>
+    
+        <tr>
+            <td>isActive</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | True and this group is available to choose.  | 1 |
-
-| defaultEscalationQueueId |  
+                
+            </td>
+            <td>optional</td>
+            <td>True and this group is available to choose.</td>
+            <td>1</td>
+        </tr>
+    
+        <tr>
+            <td>defaultEscalationQueueId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The routing queue by default that queues escalate to.  | ddf2322d-0fa7-4a0c-90c6-cddba9442646 |
-
-| lstAdminUsers |  
+                
+            </td>
+            <td>optional</td>
+            <td>The routing queue by default that queues escalate to.</td>
+            <td>ddf2322d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>lstAdminUsers</td>
+            <td>
+                
                 
                     array[<a href="#/definitions/RoutingQueueGroupRolesGETData">RoutingQueueGroupRolesGETData</a>]
                 
                 
-                    |   optional  | List of admin user access records for this group.  |  |
-
-| lstNormalUsers |  
+                
+            </td>
+            <td>optional</td>
+            <td>List of admin user access records for this group.</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lstNormalUsers</td>
+            <td>
+                
                 
                     array[<a href="#/definitions/RoutingQueueGroupRolesGETData">RoutingQueueGroupRolesGETData</a>]
                 
                 
-                    |   optional  | List of normal user access records for this group.  |  |
-                  
+                
+            </td>
+            <td>optional</td>
+            <td>List of normal user access records for this group.</td>
+            <td></td>
+        </tr>
+    
+</table>
 
 ## <a name="/definitions/RoutingQueueGroupRolesGETData">RoutingQueueGroupRolesGETData</a>
 
-| name     | type | required | descriptione | example |
-|----------|------|----------|--------------|---------|
-
-| id |  
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>type</th>
+        <th>required</th>
+        <th>description</th>
+        <th>example</th>
+    </tr>
+    
+        <tr>
+            <td>id</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| createdByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>createdByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| lastUpdatedByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdatedByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| dateCreated |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dateCreated</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| lastUpdateDate |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdateDate</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| theURI |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>theURI</td>
+            <td>
+                
                     
                     string (uri)
-                    |   optional  | -  |  |
-
-| ticketDomainId |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>ticketDomainId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Fk to ticketDomainId  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| groupRoleId |  
+                
+            </td>
+            <td>optional</td>
+            <td>Fk to ticketDomainId</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>groupRoleId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The fk to the role of the user.  | Some grouproleid |
-
-| routingQueueGroupId |  
+                
+            </td>
+            <td>optional</td>
+            <td>The fk to the role of the user.</td>
+            <td>Some grouproleid</td>
+        </tr>
+    
+        <tr>
+            <td>routingQueueGroupId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The routing queue this role applies to.  | Some routingqueuegroupid |
-
-| sequenceOrder |  
+                
+            </td>
+            <td>optional</td>
+            <td>The routing queue this role applies to.</td>
+            <td>Some routingqueuegroupid</td>
+        </tr>
+    
+        <tr>
+            <td>sequenceOrder</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | Order of the object in the full template or the template instance.  | 0 |
-
-| userName |  
+                
+            </td>
+            <td>optional</td>
+            <td>Order of the object in the full template or the template instance.</td>
+            <td>0</td>
+        </tr>
+    
+        <tr>
+            <td>userName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The user in the relationship.  | henry |
-
-| name |  
+                
+            </td>
+            <td>optional</td>
+            <td>The user in the relationship.</td>
+            <td>henry</td>
+        </tr>
+    
+        <tr>
+            <td>name</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Used - for diagnostics  | group:US Queues - Role : Normal  user:henry   |
-                  
+                
+            </td>
+            <td>optional</td>
+            <td>Used - for diagnostics</td>
+            <td>group:US Queues - Role : Normal  user:henry  </td>
+        </tr>
+    
+</table>
 
 ## <a name="/definitions/RoutingTicketEntityAspectRefGETData">RoutingTicketEntityAspectRefGETData</a>
 
-| name     | type | required | descriptione | example |
-|----------|------|----------|--------------|---------|
-
-| id |  
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>type</th>
+        <th>required</th>
+        <th>description</th>
+        <th>example</th>
+    </tr>
+    
+        <tr>
+            <td>id</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| createdByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>createdByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| lastUpdatedByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdatedByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| dateCreated |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dateCreated</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| lastUpdateDate |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdateDate</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| theURI |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>theURI</td>
+            <td>
+                
                     
                     string (uri)
-                    |   optional  | -  |  |
-
-| ticketDomainId |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>ticketDomainId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Fk to ticketDomainId  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| businessCode |  
+                
+            </td>
+            <td>optional</td>
+            <td>Fk to ticketDomainId</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>businessCode</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  | BUSINESSCODE |
-
-| name |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td>BUSINESSCODE</td>
+        </tr>
+    
+        <tr>
+            <td>name</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  | Some name |
-
-| defaultPriorityId |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td>Some name</td>
+        </tr>
+    
+        <tr>
+            <td>defaultPriorityId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  | Some defaultpriorityid |
-
-| description |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td>Some defaultpriorityid</td>
+        </tr>
+    
+        <tr>
+            <td>description</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Long description of the object.  Supports multi-byte characters.  | . Quo ex autem homero animal. Cu vim oporteat deseruisse. Ius et nulla choro mai |
-
-| isActive |  
+                
+            </td>
+            <td>optional</td>
+            <td>Long description of the object.  Supports multi-byte characters.</td>
+            <td>. Quo ex autem homero animal. Cu vim oporteat deseruisse. Ius et nulla choro mai</td>
+        </tr>
+    
+        <tr>
+            <td>isActive</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | -  | 395 |
-                  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td>395</td>
+        </tr>
+    
+</table>
 
 ## <a name="/definitions/RoutingTicketEntityGETData">RoutingTicketEntityGETData</a>
 
-| name     | type | required | descriptione | example |
-|----------|------|----------|--------------|---------|
-
-| id |  
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>type</th>
+        <th>required</th>
+        <th>description</th>
+        <th>example</th>
+    </tr>
+    
+        <tr>
+            <td>id</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| createdByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>createdByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| lastUpdatedByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdatedByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| dateCreated |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dateCreated</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| lastUpdateDate |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdateDate</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| theURI |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>theURI</td>
+            <td>
+                
                     
                     string (uri)
-                    |   optional  | -  |  |
-
-| ticketDomainId |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>ticketDomainId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Fk to ticketDomainId  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| routingTicketId |  
+                
+            </td>
+            <td>optional</td>
+            <td>Fk to ticketDomainId</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>routingTicketId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Code for the document entity_type (to make it easier to read).  | Some routingticketid |
-
-| routingEntityAspectId |  
+                
+            </td>
+            <td>optional</td>
+            <td>Code for the document entity_type (to make it easier to read).</td>
+            <td>Some routingticketid</td>
+        </tr>
+    
+        <tr>
+            <td>routingEntityAspectId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Code for the document entity_type (to make it easier to read).  | Some routingentityaspectid |
-
-| sequenceOrder |  
+                
+            </td>
+            <td>optional</td>
+            <td>Code for the document entity_type (to make it easier to read).</td>
+            <td>Some routingentityaspectid</td>
+        </tr>
+    
+        <tr>
+            <td>sequenceOrder</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | Order of the object in the full template or the template instance.  | 707 |
-
-| documentXtuuid |  
+                
+            </td>
+            <td>optional</td>
+            <td>Order of the object in the full template or the template instance.</td>
+            <td>707</td>
+        </tr>
+    
+        <tr>
+            <td>documentXtuuid</td>
+            <td>
+                
                     
                     string
-                    |   optional  | External FK to Document_entity_type .  | Some documentxtuuid |
-
-| aspect |  
+                
+            </td>
+            <td>optional</td>
+            <td>External FK to Document_entity_type .</td>
+            <td>Some documentxtuuid</td>
+        </tr>
+    
+        <tr>
+            <td>aspect</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  | Some aspect |
-
-| name |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td>Some aspect</td>
+        </tr>
+    
+        <tr>
+            <td>name</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  | Some name |
-
-| description |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td>Some name</td>
+        </tr>
+    
+        <tr>
+            <td>description</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Long description of the object.  Supports multi-byte characters.  | . Laoreet conceptam ad ius, mei te tamquam perfecto splendide. Ei eam movet i |
-                  
+                
+            </td>
+            <td>optional</td>
+            <td>Long description of the object.  Supports multi-byte characters.</td>
+            <td>. Laoreet conceptam ad ius, mei te tamquam perfecto splendide. Ei eam movet i</td>
+        </tr>
+    
+</table>
 
 ## <a name="/definitions/RoutingTicketGETData">RoutingTicketGETData</a>
 
-| name     | type | required | descriptione | example |
-|----------|------|----------|--------------|---------|
-
-| id |  
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>type</th>
+        <th>required</th>
+        <th>description</th>
+        <th>example</th>
+    </tr>
+    
+        <tr>
+            <td>id</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| createdByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>createdByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| lastUpdatedByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdatedByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| dateCreated |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dateCreated</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| lastUpdateDate |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdateDate</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| theURI |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>theURI</td>
+            <td>
+                
                     
                     string (uri)
-                    |   optional  | -  |  |
-
-| ticketDomainId |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>ticketDomainId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Fk to ticketDomainId  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| ticketTypeId |  
+                
+            </td>
+            <td>optional</td>
+            <td>Fk to ticketDomainId</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>ticketTypeId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The type of ticket governs some behavior and display.  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| parentRoutingTicketId |  
+                
+            </td>
+            <td>optional</td>
+            <td>The type of ticket governs some behavior and display.</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>parentRoutingTicketId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | If a sub-ticket, this is the parent ticket id.  | Some parentroutingticketid |
-
-| businessCode |  
+                
+            </td>
+            <td>optional</td>
+            <td>If a sub-ticket, this is the parent ticket id.</td>
+            <td>Some parentroutingticketid</td>
+        </tr>
+    
+        <tr>
+            <td>businessCode</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Used if you want to look up a routing ticket by code.  | InfoRequst-34987239487 |
-
-| status |  
+                
+            </td>
+            <td>optional</td>
+            <td>Used if you want to look up a routing ticket by code.</td>
+            <td>InfoRequst-34987239487</td>
+        </tr>
+    
+        <tr>
+            <td>status</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Status   | Open |
-
-| name |  
+                
+            </td>
+            <td>optional</td>
+            <td>Status </td>
+            <td>Open</td>
+        </tr>
+    
+        <tr>
+            <td>name</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Firendly name for the ticket.  | InfoRequest for Solar panels. |
-
-| description |  
+                
+            </td>
+            <td>optional</td>
+            <td>Firendly name for the ticket.</td>
+            <td>InfoRequest for Solar panels.</td>
+        </tr>
+    
+        <tr>
+            <td>description</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Long description of the object.  Supports multi-byte characters.  | I&#x27;m interested in buying solar panels, but don&#x27;t want them on my house. |
-
-| languageCode |  
+                
+            </td>
+            <td>optional</td>
+            <td>Long description of the object.  Supports multi-byte characters.</td>
+            <td>I&#x27;m interested in buying solar panels, but don&#x27;t want them on my house.</td>
+        </tr>
+    
+        <tr>
+            <td>languageCode</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Link into the language table.  To help with routing.  | en_US |
-
-| dataType |  
+                
+            </td>
+            <td>optional</td>
+            <td>Link into the language table.  To help with routing.</td>
+            <td>en_US</td>
+        </tr>
+    
+        <tr>
+            <td>dataType</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Parent document type of the ticket  | Quote |
-
-| conversationXtid |  
+                
+            </td>
+            <td>optional</td>
+            <td>Parent document type of the ticket</td>
+            <td>Quote</td>
+        </tr>
+    
+        <tr>
+            <td>conversationXtid</td>
+            <td>
+                
                     
                     string
-                    |   optional  | External key for the conversation - just the id.  FK in the Infra Service.  | 239473294-394397-247394738 |
-
-| parentEntityXtuuid |  
+                
+            </td>
+            <td>optional</td>
+            <td>External key for the conversation - just the id.  FK in the Infra Service.</td>
+            <td>239473294-394397-247394738</td>
+        </tr>
+    
+        <tr>
+            <td>parentEntityXtuuid</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The parent document for the routing ticket.  | Quote:239473294-394397-247394738 |
-
-| ownerQueueId |  
+                
+            </td>
+            <td>optional</td>
+            <td>The parent document for the routing ticket.</td>
+            <td>Quote:239473294-394397-247394738</td>
+        </tr>
+    
+        <tr>
+            <td>ownerQueueId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | If the owner of this ticket is currently the queue, this is non-null.  | 239473294-394397-247394738 |
-
-| ownerUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>If the owner of this ticket is currently the queue, this is non-null.</td>
+            <td>239473294-394397-247394738</td>
+        </tr>
+    
+        <tr>
+            <td>ownerUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | If a user owns the ticket, then that user.  | karley |
-
-| ownerAccepted |  
+                
+            </td>
+            <td>optional</td>
+            <td>If a user owns the ticket, then that user.</td>
+            <td>karley</td>
+        </tr>
+    
+        <tr>
+            <td>ownerAccepted</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | 1 and acceptd, 0 and in inbox.  | 1 |
-
-| priorityId |  
+                
+            </td>
+            <td>optional</td>
+            <td>1 and acceptd, 0 and in inbox.</td>
+            <td>1</td>
+        </tr>
+    
+        <tr>
+            <td>priorityId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Priority of the ticket  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-                  
+                
+            </td>
+            <td>optional</td>
+            <td>Priority of the ticket</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+</table>
 
 ## <a name="/definitions/RoutingTicketLogGETData">RoutingTicketLogGETData</a>
 
-| name     | type | required | descriptione | example |
-|----------|------|----------|--------------|---------|
-
-| id |  
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>type</th>
+        <th>required</th>
+        <th>description</th>
+        <th>example</th>
+    </tr>
+    
+        <tr>
+            <td>id</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| createdByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>createdByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| lastUpdatedByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdatedByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| dateCreated |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dateCreated</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| lastUpdateDate |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdateDate</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| theURI |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>theURI</td>
+            <td>
+                
                     
                     string (uri)
-                    |   optional  | -  |  |
-
-| ticketDomainId |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>ticketDomainId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Fk to ticketDomainId  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| routingTicketId |  
+                
+            </td>
+            <td>optional</td>
+            <td>Fk to ticketDomainId</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>routingTicketId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | fk to ticket  | Some routingticketid |
-
-| name |  
+                
+            </td>
+            <td>optional</td>
+            <td>fk to ticket</td>
+            <td>Some routingticketid</td>
+        </tr>
+    
+        <tr>
+            <td>name</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Nice words about what happened.  | Routed to the Boston Queue. |
-
-| actionCode |  
+                
+            </td>
+            <td>optional</td>
+            <td>Nice words about what happened.</td>
+            <td>Routed to the Boston Queue.</td>
+        </tr>
+    
+        <tr>
+            <td>actionCode</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Use code trigger coding.  | ROUTED |
-
-| actionReasonId |  
+                
+            </td>
+            <td>optional</td>
+            <td>Use code trigger coding.</td>
+            <td>ROUTED</td>
+        </tr>
+    
+        <tr>
+            <td>actionReasonId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The reason something was routed.  | 99028033-0fa7-4a0c-90c6-cddba9442646 |
-
-| actionReasonMemoText |  
+                
+            </td>
+            <td>optional</td>
+            <td>The reason something was routed.</td>
+            <td>99028033-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>actionReasonMemoText</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Long description of the reason something happened.  | TBD. |
-
-| statusFrom |  
+                
+            </td>
+            <td>optional</td>
+            <td>Long description of the reason something happened.</td>
+            <td>TBD.</td>
+        </tr>
+    
+        <tr>
+            <td>statusFrom</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The status before the routing/action happened  | ACCEPTED |
-
-| statusTo |  
+                
+            </td>
+            <td>optional</td>
+            <td>The status before the routing/action happened</td>
+            <td>ACCEPTED</td>
+        </tr>
+    
+        <tr>
+            <td>statusTo</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Status to.  | ROUTED |
-
-| priorityFromId |  
+                
+            </td>
+            <td>optional</td>
+            <td>Status to.</td>
+            <td>ROUTED</td>
+        </tr>
+    
+        <tr>
+            <td>priorityFromId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | If priority changed.  |  |
-
-| priorityToId |  
+                
+            </td>
+            <td>optional</td>
+            <td>If priority changed.</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>priorityToId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The priority its set to.  |  |
-
-| ownerQueueToId |  
+                
+            </td>
+            <td>optional</td>
+            <td>The priority its set to.</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>ownerQueueToId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The queue routed to  | 23894fg2134-0fa7-4a0c-90c6-cddba9442646 |
-
-| ownerQueueFromId |  
+                
+            </td>
+            <td>optional</td>
+            <td>The queue routed to</td>
+            <td>23894fg2134-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>ownerQueueFromId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Can be null, the routed from queue  |  |
-
-| ownerUserNameFrom |  
+                
+            </td>
+            <td>optional</td>
+            <td>Can be null, the routed from queue</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>ownerUserNameFrom</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Can be null, the routed from owner  | karley |
-
-| ownerUserNameTo |  
+                
+            </td>
+            <td>optional</td>
+            <td>Can be null, the routed from owner</td>
+            <td>karley</td>
+        </tr>
+    
+        <tr>
+            <td>ownerUserNameTo</td>
+            <td>
+                
                     
                     string
-                    |   optional  | If routed to a user, then this/  |  |
-
-| routingDocumentId |  
+                
+            </td>
+            <td>optional</td>
+            <td>If routed to a user, then this/</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>routingDocumentId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Unused.  |  |
-                  
+                
+            </td>
+            <td>optional</td>
+            <td>Unused.</td>
+            <td></td>
+        </tr>
+    
+</table>
 
 ## <a name="/definitions/RoutingTicketSetEntryGETData">RoutingTicketSetEntryGETData</a>
 
-| name     | type | required | descriptione | example |
-|----------|------|----------|--------------|---------|
-
-| id |  
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>type</th>
+        <th>required</th>
+        <th>description</th>
+        <th>example</th>
+    </tr>
+    
+        <tr>
+            <td>id</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| createdByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>createdByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| lastUpdatedByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdatedByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| dateCreated |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dateCreated</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| lastUpdateDate |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdateDate</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| theURI |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>theURI</td>
+            <td>
+                
                     
                     string (uri)
-                    |   optional  | -  |  |
-
-| ticketDomainId |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>ticketDomainId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Fk to ticketDomainId  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| routingTicketId |  
+                
+            </td>
+            <td>optional</td>
+            <td>Fk to ticketDomainId</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>routingTicketId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | fk to ticket  | Some routingticketid |
-
-| routingTicketSetId |  
+                
+            </td>
+            <td>optional</td>
+            <td>fk to ticket</td>
+            <td>Some routingticketid</td>
+        </tr>
+    
+        <tr>
+            <td>routingTicketSetId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The ticket set for the entry  | Some routingticketsetid |
-
-| sequenceOrder |  
+                
+            </td>
+            <td>optional</td>
+            <td>The ticket set for the entry</td>
+            <td>Some routingticketsetid</td>
+        </tr>
+    
+        <tr>
+            <td>sequenceOrder</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | Order of the object in the full template or the template instance.  | 887 |
-                  
+                
+            </td>
+            <td>optional</td>
+            <td>Order of the object in the full template or the template instance.</td>
+            <td>887</td>
+        </tr>
+    
+</table>
 
 ## <a name="/definitions/RoutingTicketSetGETData">RoutingTicketSetGETData</a>
 
-| name     | type | required | descriptione | example |
-|----------|------|----------|--------------|---------|
-
-| id |  
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>type</th>
+        <th>required</th>
+        <th>description</th>
+        <th>example</th>
+    </tr>
+    
+        <tr>
+            <td>id</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| createdByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>createdByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| lastUpdatedByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdatedByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| dateCreated |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dateCreated</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| lastUpdateDate |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdateDate</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| theURI |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>theURI</td>
+            <td>
+                
                     
                     string (uri)
-                    |   optional  | -  |  |
-
-| ticketDomainId |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>ticketDomainId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Fk to ticketDomainId  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| userName |  
+                
+            </td>
+            <td>optional</td>
+            <td>Fk to ticketDomainId</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>userName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The user in the relationship.  | Some username |
-
-| name |  
+                
+            </td>
+            <td>optional</td>
+            <td>The user in the relationship.</td>
+            <td>Some username</td>
+        </tr>
+    
+        <tr>
+            <td>name</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  | Some name |
-
-| description |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td>Some name</td>
+        </tr>
+    
+        <tr>
+            <td>description</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Long description of the object.  Supports multi-byte characters.  | . Ei exerci definitiones eum, vix ad oratio timeam, ei his tollit aperiam omnesq |
-                  
+                
+            </td>
+            <td>optional</td>
+            <td>Long description of the object.  Supports multi-byte characters.</td>
+            <td>. Ei exerci definitiones eum, vix ad oratio timeam, ei his tollit aperiam omnesq</td>
+        </tr>
+    
+</table>
 
 ## <a name="/definitions/TicketDomainRefGETData">TicketDomainRefGETData</a>
 
-| name     | type | required | descriptione | example |
-|----------|------|----------|--------------|---------|
-
-| id |  
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>type</th>
+        <th>required</th>
+        <th>description</th>
+        <th>example</th>
+    </tr>
+    
+        <tr>
+            <td>id</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| createdByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>createdByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| lastUpdatedByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdatedByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| dateCreated |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dateCreated</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| lastUpdateDate |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdateDate</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| theURI |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>theURI</td>
+            <td>
+                
                     
                     string (uri)
-                    |   optional  | -  |  |
-
-| businessCode |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>businessCode</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Code for this domain.  | Quote |
-
-| name |  
+                
+            </td>
+            <td>optional</td>
+            <td>Code for this domain.</td>
+            <td>Quote</td>
+        </tr>
+    
+        <tr>
+            <td>name</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Nice name for the domain.  | Quote Ticket domain. |
-
-| description |  
+                
+            </td>
+            <td>optional</td>
+            <td>Nice name for the domain.</td>
+            <td>Quote Ticket domain.</td>
+        </tr>
+    
+        <tr>
+            <td>description</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Long description of the object.  Supports multi-byte characters.  | The quote ticket domain contains all the RFQ&#x27;s and Quotes. |
-
-| isActive |  
+                
+            </td>
+            <td>optional</td>
+            <td>Long description of the object.  Supports multi-byte characters.</td>
+            <td>The quote ticket domain contains all the RFQ&#x27;s and Quotes.</td>
+        </tr>
+    
+        <tr>
+            <td>isActive</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | True and can be selected.  | 1 |
-                  
+                
+            </td>
+            <td>optional</td>
+            <td>True and can be selected.</td>
+            <td>1</td>
+        </tr>
+    
+</table>
 
 ## <a name="/definitions/TicketPriorityRefGETData">TicketPriorityRefGETData</a>
 
-| name     | type | required | descriptione | example |
-|----------|------|----------|--------------|---------|
-
-| id |  
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>type</th>
+        <th>required</th>
+        <th>description</th>
+        <th>example</th>
+    </tr>
+    
+        <tr>
+            <td>id</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| createdByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>createdByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| lastUpdatedByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdatedByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| dateCreated |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dateCreated</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| lastUpdateDate |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdateDate</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| theURI |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>theURI</td>
+            <td>
+                
                     
                     string (uri)
-                    |   optional  | -  |  |
-
-| ticketDomainId |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>ticketDomainId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Fk to ticketDomainId  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| businessCode |  
+                
+            </td>
+            <td>optional</td>
+            <td>Fk to ticketDomainId</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>businessCode</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Code for the priority.  Unique in the ticketDomain.  | HIGH |
-
-| name |  
+                
+            </td>
+            <td>optional</td>
+            <td>Code for the priority.  Unique in the ticketDomain.</td>
+            <td>HIGH</td>
+        </tr>
+    
+        <tr>
+            <td>name</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Nice name for the priority  | High Priority |
-
-| description |  
+                
+            </td>
+            <td>optional</td>
+            <td>Nice name for the priority</td>
+            <td>High Priority</td>
+        </tr>
+    
+        <tr>
+            <td>description</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Long description of the object.  Supports multi-byte characters.  | High priority tickets have the following SLA: 2 hour address. |
-
-| isActive |  
+                
+            </td>
+            <td>optional</td>
+            <td>Long description of the object.  Supports multi-byte characters.</td>
+            <td>High priority tickets have the following SLA: 2 hour address.</td>
+        </tr>
+    
+        <tr>
+            <td>isActive</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | True and the ticket priority is available for selection.  | 1 |
-
-| priority |  
+                
+            </td>
+            <td>optional</td>
+            <td>True and the ticket priority is available for selection.</td>
+            <td>1</td>
+        </tr>
+    
+        <tr>
+            <td>priority</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | 1 is low priority, 100 is high priority. The priority should correspond to relative escalation hours.  | 75 |
-
-| escalationHours |  
+                
+            </td>
+            <td>optional</td>
+            <td>1 is low priority, 100 is high priority. The priority should correspond to relative escalation hours.</td>
+            <td>75</td>
+        </tr>
+    
+        <tr>
+            <td>escalationHours</td>
+            <td>
+                
                     
                     number (double)
-                    |   optional  | The escalation rule in hours.  | 0.44 |
-                  
+                
+            </td>
+            <td>optional</td>
+            <td>The escalation rule in hours.</td>
+            <td>0.44</td>
+        </tr>
+    
+</table>
 
 ## <a name="/definitions/TicketTypeRefGETData">TicketTypeRefGETData</a>
 
-| name     | type | required | descriptione | example |
-|----------|------|----------|--------------|---------|
-
-| id |  
+<table border="1">
+    <tr>
+        <th>name</th>
+        <th>type</th>
+        <th>required</th>
+        <th>description</th>
+        <th>example</th>
+    </tr>
+    
+        <tr>
+            <td>id</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| createdByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>createdByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| lastUpdatedByUserName |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdatedByUserName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | -  |  |
-
-| dateCreated |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>dateCreated</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| lastUpdateDate |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>lastUpdateDate</td>
+            <td>
+                
                     <a href="#/definitions/DateGETData">DateGETData</a>
                     
-                    |   optional  | -  |  |
-
-| theURI |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>theURI</td>
+            <td>
+                
                     
                     string (uri)
-                    |   optional  | -  |  |
-
-| ticketDomainId |  
+                
+            </td>
+            <td>optional</td>
+            <td>-</td>
+            <td></td>
+        </tr>
+    
+        <tr>
+            <td>ticketDomainId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Fk to ticketDomainId  | 75a2122d-0fa7-4a0c-90c6-cddba9442646 |
-
-| businessCode |  
+                
+            </td>
+            <td>optional</td>
+            <td>Fk to ticketDomainId</td>
+            <td>75a2122d-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>businessCode</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Code for the ticket type.  Unique to the domain.  | INFO_REQUEST |
-
-| name |  
+                
+            </td>
+            <td>optional</td>
+            <td>Code for the ticket type.  Unique to the domain.</td>
+            <td>INFO_REQUEST</td>
+        </tr>
+    
+        <tr>
+            <td>name</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Nice name for the ticket type.  | Request for Information |
-
-| escalationRuleName |  
+                
+            </td>
+            <td>optional</td>
+            <td>Nice name for the ticket type.</td>
+            <td>Request for Information</td>
+        </tr>
+    
+        <tr>
+            <td>escalationRuleName</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The escalation rule escalate by time uses the escalation hours.  | ExcalateByTime |
-
-| escalationQueueId |  
+                
+            </td>
+            <td>optional</td>
+            <td>The escalation rule escalate by time uses the escalation hours.</td>
+            <td>ExcalateByTime</td>
+        </tr>
+    
+        <tr>
+            <td>escalationQueueId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The routing queue to escalate to..  | aa0a0a0ad-0fa7-4a0c-90c6-cddba9442646 |
-
-| initialQueueId |  
+                
+            </td>
+            <td>optional</td>
+            <td>The routing queue to escalate to..</td>
+            <td>aa0a0a0ad-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>initialQueueId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The routing queue that the newly initialized ticket will be sent to by default.  | bb02b2bbd-0fa7-4a0c-90c6-cddba9442646 |
-
-| defaultPriorityId |  
+                
+            </td>
+            <td>optional</td>
+            <td>The routing queue that the newly initialized ticket will be sent to by default.</td>
+            <td>bb02b2bbd-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>defaultPriorityId</td>
+            <td>
+                
                     
                     string
-                    |   optional  | The default priority for the ticket if this type is chosen.  | cc97c97c8c-0fa7-4a0c-90c6-cddba9442646 |
-
-| description |  
+                
+            </td>
+            <td>optional</td>
+            <td>The default priority for the ticket if this type is chosen.</td>
+            <td>cc97c97c8c-0fa7-4a0c-90c6-cddba9442646</td>
+        </tr>
+    
+        <tr>
+            <td>description</td>
+            <td>
+                
                     
                     string
-                    |   optional  | Long description of the object.  Supports multi-byte characters.  | The informational request will be sent out to SME&#x27;s. |
-
-| isActive |  
+                
+            </td>
+            <td>optional</td>
+            <td>Long description of the object.  Supports multi-byte characters.</td>
+            <td>The informational request will be sent out to SME&#x27;s.</td>
+        </tr>
+    
+        <tr>
+            <td>isActive</td>
+            <td>
+                
                     
                     integer (int32)
-                    |   optional  | 1 and available for selection.  | 1 |
-                  
+                
+            </td>
+            <td>optional</td>
+            <td>1 and available for selection.</td>
+            <td>1</td>
+        </tr>
+    
+</table>
 
 
