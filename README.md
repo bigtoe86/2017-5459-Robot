@@ -122,7 +122,8 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type: ** 
+application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
