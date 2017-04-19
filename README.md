@@ -65,7 +65,7 @@ The routing services track the movement of a document or an activity through the
     <th>domainid</th>
     <td>query</td>
     <td>no</td>
-    <td> - </td>
+    <td> The domain id groups all the data for a specific purpose (like quote, inquiries, cases, etc.)</td>
     <td> - </td>
     <td>string </td>  
 </tr>
