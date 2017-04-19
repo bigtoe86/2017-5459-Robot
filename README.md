@@ -49,7 +49,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%" >
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -65,9 +65,9 @@ The routing services track the movement of a document or an activity through the
     <th>domainid</th>
     <td>query</td>
     <td>no</td>
-    <td></td>
     <td> - </td>
-                <td>string </td>  
+    <td> - </td>
+    <td>string </td>  
 </tr>
 
 <tr>
