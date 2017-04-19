@@ -49,7 +49,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1" width="100%" >
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -65,9 +65,9 @@ The routing services track the movement of a document or an activity through the
     <th>domainid</th>
     <td>query</td>
     <td>no</td>
-    <td> The domain id groups all the data for a specific purpose (like quote, inquiries, cases, etc.)</td>
+    <td></td>
     <td> - </td>
-    <td>string </td>  
+                <td>string </td>  
 </tr>
 
 <tr>
@@ -122,11 +122,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: **  application/json;charset=UTF-8booger
-
-**Content-Type**  application/json;charset=UTF-8booger
-
-**Content-Type:**  application/json;charset=UTF-8boogertt
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -157,7 +153,7 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
@@ -168,7 +164,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -213,7 +209,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -241,7 +237,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -269,11 +265,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -301,7 +297,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -332,11 +328,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -364,7 +360,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -405,7 +401,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -478,7 +474,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -509,7 +505,7 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
@@ -520,7 +516,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -565,7 +561,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -593,7 +589,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -621,11 +617,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -653,7 +649,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -684,11 +680,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -716,7 +712,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -757,7 +753,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -830,7 +826,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -861,7 +857,7 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
@@ -872,7 +868,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -917,7 +913,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -945,7 +941,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -973,11 +969,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -1005,7 +1001,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -1036,11 +1032,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -1068,7 +1064,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -1109,7 +1105,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -1182,7 +1178,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -1213,7 +1209,7 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
@@ -1224,7 +1220,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -1269,7 +1265,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -1297,7 +1293,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -1325,11 +1321,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -1357,7 +1353,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -1388,11 +1384,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -1420,7 +1416,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -1461,7 +1457,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -1507,7 +1503,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -1554,7 +1550,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -1600,7 +1596,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -1647,7 +1643,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -1720,7 +1716,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -1751,7 +1747,7 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
@@ -1762,7 +1758,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -1807,7 +1803,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -1835,7 +1831,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -1863,11 +1859,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -1895,7 +1891,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -1926,11 +1922,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -1958,7 +1954,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -1999,7 +1995,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -2072,7 +2068,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -2103,7 +2099,7 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
@@ -2114,7 +2110,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -2159,7 +2155,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -2187,7 +2183,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -2215,11 +2211,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -2247,7 +2243,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -2278,11 +2274,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -2310,7 +2306,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -2351,7 +2347,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -2424,7 +2420,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -2455,7 +2451,7 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
@@ -2466,7 +2462,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -2511,7 +2507,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -2539,7 +2535,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -2567,11 +2563,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -2599,7 +2595,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -2630,11 +2626,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -2662,7 +2658,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -2703,7 +2699,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -2776,7 +2772,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -2807,7 +2803,7 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
@@ -2818,7 +2814,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -2863,7 +2859,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -2891,7 +2887,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -2919,11 +2915,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -2951,7 +2947,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -2982,11 +2978,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -3014,7 +3010,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -3055,7 +3051,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -3128,7 +3124,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -3159,7 +3155,7 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
@@ -3170,7 +3166,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -3215,7 +3211,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -3243,7 +3239,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -3271,11 +3267,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -3303,7 +3299,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -3334,11 +3330,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -3366,7 +3362,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -3407,7 +3403,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -3471,7 +3467,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -3502,7 +3498,7 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
@@ -3513,7 +3509,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -3558,7 +3554,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -3586,7 +3582,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -3614,11 +3610,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -3646,7 +3642,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -3677,11 +3673,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -3709,7 +3705,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -3750,7 +3746,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -3814,7 +3810,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -3845,7 +3841,7 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
@@ -3856,7 +3852,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -3901,7 +3897,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -3929,7 +3925,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -3957,11 +3953,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -3989,7 +3985,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -4020,11 +4016,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -4052,7 +4048,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -4093,7 +4089,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -4175,7 +4171,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -4206,7 +4202,7 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
@@ -4217,7 +4213,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -4262,7 +4258,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -4299,7 +4295,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -4346,7 +4342,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -4383,7 +4379,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -4430,7 +4426,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -4458,7 +4454,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -4486,11 +4482,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -4518,7 +4514,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -4549,11 +4545,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -4581,7 +4577,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -4622,7 +4618,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -4677,7 +4673,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -4724,7 +4720,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -4761,7 +4757,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -4808,7 +4804,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -4845,7 +4841,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -4892,7 +4888,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -4947,7 +4943,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -4994,7 +4990,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -5049,7 +5045,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -5096,7 +5092,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -5151,7 +5147,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -5198,7 +5194,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -5262,7 +5258,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -5309,7 +5305,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -5373,7 +5369,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -5404,7 +5400,7 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
@@ -5415,7 +5411,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -5460,7 +5456,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -5488,7 +5484,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -5516,11 +5512,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -5548,7 +5544,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -5579,11 +5575,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -5611,7 +5607,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -5652,7 +5648,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -5716,7 +5712,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -5747,7 +5743,7 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
@@ -5758,7 +5754,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -5803,7 +5799,7 @@ The routing services track the movement of a document or an activity through the
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -5831,7 +5827,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -5859,11 +5855,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -5891,7 +5887,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
@@ -5922,11 +5918,11 @@ The routing services track the movement of a document or an activity through the
 #### Request
 
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 ##### Parameters
 
-<table border="1">
+<table border="1" width="100%">
     <tr>
         <th>Name</th>
         <th>Located in</th>
@@ -5954,7 +5950,7 @@ The routing services track the movement of a document or an activity through the
 
 #### Response
 
-**Content-Type: ** application/json;charset=UTF-8
+**Content-Type**: application/json;charset=UTF-8
 
 
 | Status Code | Reason      | Response Model |
